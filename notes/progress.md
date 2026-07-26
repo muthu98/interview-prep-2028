@@ -1,7 +1,7 @@
 # Interview Preparation Progress
 
 ## Day 1 ✅
-
+  
 - Folder setup
 - LeetCode 217
 - HashMap / Set
