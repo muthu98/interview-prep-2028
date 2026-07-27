@@ -13,7 +13,7 @@
 | Arrays | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Hashing | ⭐⭐⭐⭐⭐ | ✅ | 1 |
 | Two Pointers | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
-| Sliding Window | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Sliding Window | ⭐⭐⭐⭐⭐ | ✅ | 1 |
 | Prefix Sum / Suffix | ⭐⭐⭐⭐☆ | ✅ | 1 |
 | Binary Search | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Intervals | ⭐⭐⭐⭐☆ | ⬜ | 0 |
@@ -136,7 +136,7 @@ Space: **O(1)** or **O(n)**
 
 ### Problems
 
-- [ ]
+- [x] 3. Longest Substring Without Repeating Characters
 
 ---
 
