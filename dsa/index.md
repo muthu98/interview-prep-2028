@@ -137,6 +137,7 @@ Space: **O(1)** or **O(n)**
 ### Problems
 
 - [x] 3. Longest Substring Without Repeating Characters
+- [x] 567. Permutation in String
 
 ---
 

@@ -37,3 +37,21 @@ Forgot that const allows object and array mutation.
 ### Learning
 
 const prevents reassignment, not mutation.
+
+
+# Day 5
+
+## LeetCode 567
+
+### Mistakes
+
+- Initially confused between `Map.size` and window length.
+- Wanted to reset the window instead of sliding it.
+- Tried to optimize before completing the correct solution.
+- Forgot that only the entering and leaving characters change during each slide.
+
+### Learning
+
+Always write the correct solution first.
+
+Optimize only after identifying repeated work.

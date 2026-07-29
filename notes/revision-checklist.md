@@ -23,9 +23,19 @@
 - [x] Async / Await
 - [x] var vs let vs const
 - [x] == vs ===
-- [ ] Closures
+- [x] Closures
 - [ ] Event Loop
 - [ ] this
 - [ ] Prototype
 - [ ] Call / Apply / Bind
 - [ ] Debounce / Throttle
+
+
+## Sliding Window
+
+- [x] Variable Sliding Window
+- [x] Fixed Sliding Window
+- [x] Set
+- [x] Map
+- [x] Frequency Array
+- [ ] Match Count Optimization
