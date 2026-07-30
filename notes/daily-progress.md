@@ -70,3 +70,22 @@
 - Lexical Scope
 - Independent Closures
 - Private Variables
+
+
+## Day 6 ✅
+
+### DSA
+- LeetCode 121 - Best Time to Buy and Sell Stock
+- Two Pointers
+- Minimum Price Tracking
+- Maximum Profit
+
+### JavaScript
+- Promises
+- Promise States
+- resolve()
+- reject()
+- then()
+- catch()
+- finally()
+- Promise Chaining

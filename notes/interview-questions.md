@@ -46,3 +46,22 @@ Window size changes.
 
 Fixed:
 Window size remains constant.
+
+
+## Two Pointers
+
+### Q1
+Why move `left = right` instead of `left++`?
+
+Answer:
+
+Because `left` represents the best buying day (minimum price). When a lower price is found, it becomes the new buying day.
+
+---
+
+### Q2
+Difference between Sliding Window and Two Pointers?
+
+Sliding Window maintains a contiguous window.
+
+Two Pointers tracks two positions that move according to the problem.

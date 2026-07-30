@@ -55,3 +55,18 @@ const prevents reassignment, not mutation.
 Always write the correct solution first.
 
 Optimize only after identifying repeated work.
+
+
+# Day 6
+
+## LeetCode 121
+
+### Mistakes
+
+- Initially thought `left++`.
+- Learned `left` should always point to the minimum price seen so far.
+- Understood why `left = right` is the correct update.
+
+### Learning
+
+Two Pointers is about tracking the best positions, not maintaining a window.

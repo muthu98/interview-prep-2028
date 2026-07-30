@@ -12,8 +12,8 @@
 |---------|:----------:|:------:|:---------------:|
 | Arrays | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Hashing | ⭐⭐⭐⭐⭐ | ✅ | 1 |
-| Two Pointers | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
-| Sliding Window | ⭐⭐⭐⭐⭐ | ✅ | 1 |
+| Two Pointers | ⭐⭐⭐⭐⭐ | ⬜ | 1 |
+| Sliding Window | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Prefix Sum / Suffix | ⭐⭐⭐⭐☆ | ✅ | 1 |
 | Binary Search | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Intervals | ⭐⭐⭐⭐☆ | ⬜ | 0 |
@@ -113,7 +113,7 @@ Space: **O(1)**
 
 ### Problems
 
-- [ ]
+- [x] 121. Best Time to Buy and Sell Stock
 
 ---
 
