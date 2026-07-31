@@ -71,16 +71,17 @@
 - Independent Closures
 - Private Variables
 
-
 ## Day 6 ✅
 
 ### DSA
+
 - LeetCode 121 - Best Time to Buy and Sell Stock
 - Two Pointers
 - Minimum Price Tracking
 - Maximum Profit
 
 ### JavaScript
+
 - Promises
 - Promise States
 - resolve()
@@ -89,3 +90,17 @@
 - catch()
 - finally()
 - Promise Chaining
+
+## Day 7 ✅
+
+### DSA
+
+- Binary Search
+- LeetCode 704 - Binary Search
+
+### JavaScript
+
+- Hoisting
+- Temporal Dead Zone (TDZ)
+- Function Declaration
+- Function Expression

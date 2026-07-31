@@ -30,7 +30,6 @@
 - [ ] Call / Apply / Bind
 - [ ] Debounce / Throttle
 
-
 ## Sliding Window
 
 - [x] Variable Sliding Window
@@ -45,3 +44,19 @@
 - [x] Best Time to Buy and Sell Stock
 - [x] Minimum Price Tracking
 - [x] Maximum Profit
+
+## Binary Search
+
+- [x] 704. Binary Search
+- [x] Binary Search Algorithm
+- [x] Pointer Movement
+- [x] Time Complexity
+
+---
+
+## JavaScript
+
+- [x] Hoisting
+- [x] TDZ
+- [x] Function Declaration
+- [x] Function Expression

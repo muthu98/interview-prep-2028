@@ -17,10 +17,10 @@
 - Can a const object be modified?
 - Difference between const and immutable?
 
-
 # Sliding Window
 
 ## Q1
+
 Why compare the frequency map for every window?
 
 Answer:
@@ -29,6 +29,7 @@ Every window represents a different substring. Since one character enters and on
 ---
 
 ## Q2
+
 Can this be optimized?
 
 Answer:
@@ -39,6 +40,7 @@ Instead of comparing the whole frequency map every time, maintain a match counte
 ---
 
 ## Q3
+
 Difference between Variable and Fixed Sliding Window?
 
 Variable:
@@ -47,10 +49,10 @@ Window size changes.
 Fixed:
 Window size remains constant.
 
-
 ## Two Pointers
 
 ### Q1
+
 Why move `left = right` instead of `left++`?
 
 Answer:
@@ -60,8 +62,47 @@ Because `left` represents the best buying day (minimum price). When a lower pric
 ---
 
 ### Q2
+
 Difference between Sliding Window and Two Pointers?
 
 Sliding Window maintains a contiguous window.
 
 Two Pointers tracks two positions that move according to the problem.
+
+## Binary Search
+
+### Q1
+
+Why do we use `left <= right`?
+
+### Q2
+
+Why do we use `mid + 1` and `mid - 1`?
+
+### Q3
+
+Why is Binary Search `O(log n)`?
+
+---
+
+## JavaScript
+
+### Q1
+
+What is Hoisting?
+
+### Q2
+
+Are `let` and `const` hoisted?
+
+### Q3
+
+What is the Temporal Dead Zone?
+
+### Q4
+
+Difference between Function Declaration and Function Expression?
+
+### Q5
+
+Why does `var` print `undefined`?

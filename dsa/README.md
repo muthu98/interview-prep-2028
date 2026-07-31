@@ -182,7 +182,7 @@ Space: **O(1)**
 
 ### Problems
 
-- [ ]
+- [x] 704. Binary Search
 
 ---
 

@@ -38,7 +38,6 @@ Forgot that const allows object and array mutation.
 
 const prevents reassignment, not mutation.
 
-
 # Day 5
 
 ## LeetCode 567
@@ -56,7 +55,6 @@ Always write the correct solution first.
 
 Optimize only after identifying repeated work.
 
-
 # Day 6
 
 ## LeetCode 121
@@ -70,3 +68,23 @@ Optimize only after identifying repeated work.
 ### Learning
 
 Two Pointers is about tracking the best positions, not maintaining a window.
+
+# Day 7
+
+## Binary Search
+
+### Mistakes
+
+- Initially used `left < right`.
+- Initially moved pointers to `mid`.
+- Learned to use `left <= right`.
+- Learned to update pointers with `mid + 1` and `mid - 1`.
+
+---
+
+## JavaScript
+
+### Mistakes
+
+- Initially thought `let` and `const` are not hoisted.
+- Learned they are hoisted but remain uninitialized inside the Temporal Dead Zone.
