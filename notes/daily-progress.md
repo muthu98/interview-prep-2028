@@ -104,3 +104,26 @@
 - Temporal Dead Zone (TDZ)
 - Function Declaration
 - Function Expression
+
+# Day 8
+
+## DSA
+
+- ✅ 35. Search Insert Position
+- Pattern: Binary Search
+
+## JavaScript
+
+- ✅ Execution Context
+- ✅ Call Stack
+- ✅ Event Loop
+- ✅ Web APIs
+- ✅ Callback Queue
+- ✅ Microtask Queue
+- ✅ Macrotask Queue
+
+## Learning
+
+- Binary Search returns `left` when the target is not found.
+- Event Loop executes all Microtasks before Macrotasks.
+- Execution Context has Creation and Execution phases.

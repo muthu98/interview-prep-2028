@@ -88,3 +88,57 @@ Two Pointers is about tracking the best positions, not maintaining a window.
 
 - Initially thought `let` and `const` are not hoisted.
 - Learned they are hoisted but remain uninitialized inside the Temporal Dead Zone.
+
+
+# Day 8
+
+## Binary Search
+
+### Mistake
+
+Initially tried to determine the insertion position using `mid`.
+
+### Learning
+
+Always return `left` after the loop.
+
+---
+
+### Mistake
+
+Thought `left == right` required special handling.
+
+### Learning
+
+The standard Binary Search template handles it naturally.
+
+---
+
+## JavaScript
+
+### Mistake
+
+Defined Execution Context by describing its phases instead of defining it.
+
+### Learning
+
+Execution Context is the environment where JavaScript code executes.
+
+---
+
+### Mistake
+
+Remembered only one Microtask and one Macrotask example.
+
+### Learning
+
+Microtasks:
+- Promise.then()
+- Promise.catch()
+- Promise.finally()
+- queueMicrotask()
+
+Macrotasks:
+- setTimeout()
+- setInterval()
+- DOM Events

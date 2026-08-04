@@ -106,3 +106,23 @@ Difference between Function Declaration and Function Expression?
 ### Q5
 
 Why does `var` print `undefined`?
+
+
+## Binary Search
+
+- Why return `left` instead of `right`?
+- Why compare with `nums[mid]`?
+- Why use `left <= right`?
+
+---
+
+## JavaScript
+
+- What is Execution Context?
+- Explain Creation Phase.
+- Explain Execution Phase.
+- What is the Call Stack?
+- What is the Event Loop?
+- Difference between Microtask and Macrotask?
+- Why does Promise execute before setTimeout()?
+- Does setTimeout(fn, 0) execute immediately?

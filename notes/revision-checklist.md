@@ -60,3 +60,10 @@
 - [x] TDZ
 - [x] Function Declaration
 - [x] Function Expression
+
+
+- [x] Binary Search (704)
+- [x] Search Insert Position (35)
+
+- [x] Execution Context
+- [x] Event Loop
