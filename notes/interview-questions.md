@@ -126,3 +126,23 @@ Why does `var` print `undefined`?
 - Difference between Microtask and Macrotask?
 - Why does Promise execute before setTimeout()?
 - Does setTimeout(fn, 0) execute immediately?
+
+
+# Day 9
+
+## Stack
+
+- Why is Stack the correct pattern for Valid Parentheses?
+- Why push expected closing brackets?
+- What happens if input starts with ')'?
+- Can this be solved without Stack?
+
+---
+
+## JavaScript
+
+- What is `this`?
+- What determines `this`?
+- Difference between regular and arrow functions.
+- call vs apply vs bind.
+- Why use bind instead of call?

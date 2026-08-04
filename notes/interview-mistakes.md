@@ -142,3 +142,50 @@ Macrotasks:
 - setTimeout()
 - setInterval()
 - DOM Events
+
+
+# Day 9
+
+## JavaScript
+
+Mistake
+
+Confused global scope with regular function under strict mode.
+
+Correct
+
+Global scope
+
+Browser
+
+this === window
+
+Regular Function
+
+Non strict
+
+this === window
+
+Strict
+
+this === undefined
+
+---
+
+Improvement
+
+Instead of saying
+
+"this refers to window"
+
+Say
+
+"this depends on how the function is invoked."
+
+---
+
+Minor
+
+Function declaration vs function expression does not affect `this`.
+
+Function invocation does.

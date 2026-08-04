@@ -31,7 +31,7 @@
 | Prefix Sum / Suffix | ⭐⭐⭐⭐☆ | ✅ | 1 |
 | Binary Search | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Intervals | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Stack | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Stack | ⭐⭐⭐⭐⭐ | ✅ | 1 |
 | Queue | ⭐⭐⭐☆☆ | ⬜ | 0 |
 | Linked List | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Trees | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
@@ -232,6 +232,41 @@ Space: **O(1)**
 - [x] 704. Binary Search
 - [x] 35. Search Insert Position
 
+
+---
+
+# 7. Stack
+
+### Description
+
+Use the **Last-In-First-Out (LIFO)** principle to solve problems involving nested or ordered operations.
+
+### Recognition Clues
+
+- Matching parentheses
+- Nested structures
+- Undo operations
+- Expression evaluation
+- Next Greater Element
+
+### Common Topics
+
+- Parentheses validation
+- Monotonic Stack
+- Min Stack
+- Expression Evaluation
+- Decode String
+
+### Complexity
+
+Time: **O(n)**
+
+Space: **O(n)**
+
+### Problems
+
+- [x] 20. Valid Parentheses
+
 ---
 
 # Remaining Patterns
@@ -294,7 +329,7 @@ Every problem in this repository follows:
 - ✅ Sliding Window
 - ✅ Prefix Sum / Suffix
 - ✅ Binary Search
-- ⬜ Stack
+- ✅ Stack
 - ⬜ Queue
 
 ---

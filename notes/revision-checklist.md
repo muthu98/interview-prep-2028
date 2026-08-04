@@ -9,7 +9,7 @@
 - [x] Sliding Window
 - [ ] Two Pointers
 - [ ] Binary Search
-- [ ] Stack
+- [x] Stack
 - [ ] Heap
 - [ ] Trees
 - [ ] Graphs
@@ -25,7 +25,10 @@
 - [x] == vs ===
 - [x] Closures
 - [ ] Event Loop
-- [ ] this
+- [x] this
+- [x] call
+- [x] apply
+- [x] bind
 - [ ] Prototype
 - [ ] Call / Apply / Bind
 - [ ] Debounce / Throttle

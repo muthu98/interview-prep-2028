@@ -127,3 +127,41 @@
 - Binary Search returns `left` when the target is not found.
 - Event Loop executes all Microtasks before Macrotasks.
 - Execution Context has Creation and Execution phases.
+
+
+# Day 9
+
+## DSA
+
+✅ Pattern: Stack
+
+Problem Solved
+
+- 20. Valid Parentheses
+
+Learnings
+
+- Recognized Stack pattern immediately.
+- Used expected closing brackets instead of opening brackets.
+- Completed optimal solution in O(n).
+
+---
+
+## JavaScript
+
+Completed
+
+- this
+- call()
+- apply()
+- bind()
+
+Interview Score
+
+DSA: 10/10
+
+JavaScript: 9.3/10
+
+Overall
+
+Pattern recognition speed continues to improve.

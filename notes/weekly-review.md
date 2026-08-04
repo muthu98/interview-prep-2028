@@ -26,3 +26,22 @@
 - Queue
 - `this`
 - call / apply / bind
+
+## Day 9 Summary
+
+DSA
+
+- Solved first Stack problem.
+- Pattern recognition improving consistently.
+
+JavaScript
+
+- Learned `this`.
+- Learned call/apply/bind.
+- Need to revise strict mode behavior.
+
+Confidence
+
+DSA ⭐⭐⭐⭐⭐
+
+JavaScript ⭐⭐⭐⭐☆
