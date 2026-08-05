@@ -146,3 +146,22 @@ Why does `var` print `undefined`?
 - Difference between regular and arrow functions.
 - call vs apply vs bind.
 - Why use bind instead of call?
+
+# Day 10
+
+## DSA
+
+- Why is one stack insufficient for Min Stack?
+- Why use a second stack?
+- Why use <= instead of <?
+
+---
+
+## JavaScript
+
+- What is a prototype?
+- What is prototype chaining?
+- Difference between prototype and __proto__?
+- How does new work?
+- How does Object.create() work?
+- Are classes built on prototypes?

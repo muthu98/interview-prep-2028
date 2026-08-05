@@ -29,7 +29,10 @@
 - [x] call
 - [x] apply
 - [x] bind
-- [ ] Prototype
+- [x] Prototype
+- [x] Prototype Chain
+- [x] Object.create()
+- [x] new keyword
 - [ ] Call / Apply / Bind
 - [ ] Debounce / Throttle
 

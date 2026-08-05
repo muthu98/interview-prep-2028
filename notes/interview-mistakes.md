@@ -189,3 +189,33 @@ Minor
 Function declaration vs function expression does not affect `this`.
 
 Function invocation does.
+
+# Day 10
+
+## DSA
+
+Initial idea:
+
+Maintain only one minimum value.
+
+Issue:
+
+Cannot restore the previous minimum after popping the current minimum.
+
+Solution:
+
+Maintain a second stack to track minimum values.
+
+---
+
+## JavaScript
+
+Mistake
+
+Said classes store their own methods.
+
+Correct
+
+Class methods are stored on the class prototype.
+
+Classes are syntactic sugar over constructor functions.

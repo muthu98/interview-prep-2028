@@ -14,8 +14,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## Overall Statistics
 
-- ✅ Topics Completed: **12**
-- 📅 Current Day: **Day 9**
+- ✅ Topics Completed: **13**
+- 📅 Current Day: **Day 10**
 
 ---
 
@@ -34,6 +34,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 | Closures | ✅ |
 | `this` Keyword | ✅ |
 | `call()` / `apply()` / `bind()` | ✅ |
+| Prototype & Prototype Chain | ✅ |
 
 ---
 
@@ -41,6 +42,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 | Day | Topic |
 |-----|-------|
+| Day 10 | Prototype & Prototype Chain |
 | Day 9 | `this`, `call()`, `apply()`, `bind()` |
 | Day 8 | Event Loop, Call Stack |
 | Day 7 | Execution Context |
@@ -69,7 +71,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ### Phase 2 — Intermediate JavaScript
 
-- ⬜ Prototype & Prototype Chain
+- ✅ Prototype & Prototype Chain
 - ⬜ Objects
 - ⬜ Functions Deep Dive
 - ⬜ Modules (ESM/CommonJS)

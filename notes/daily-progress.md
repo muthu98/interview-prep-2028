@@ -128,7 +128,6 @@
 - Event Loop executes all Microtasks before Macrotasks.
 - Execution Context has Creation and Execution phases.
 
-
 # Day 9
 
 ## DSA
@@ -165,3 +164,40 @@ JavaScript: 9.3/10
 Overall
 
 Pattern recognition speed continues to improve.
+
+# Day 10
+
+## DSA
+
+Pattern
+
+- Stack
+
+Problem
+
+- 155. Min Stack
+
+Highlights
+
+- Initially considered tracking the minimum using a single variable.
+- Identified why that approach fails after pop operations.
+- Implemented the optimal two-stack solution.
+
+---
+
+## JavaScript
+
+Completed
+
+- Prototype
+- Prototype Chain
+- Object.create()
+- prototype vs **proto**
+- new keyword
+- Constructor Function vs Class
+
+Interview Scores
+
+DSA: 9.9 / 10
+
+JavaScript: 8.8 / 10

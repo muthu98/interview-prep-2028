@@ -16,9 +16,9 @@
 
 ## Overall Statistics
 
-- ✅ Patterns Completed: **6 / 21**
-- ✅ Problems Solved: **8**
-- 📅 Current Day: **Day 8**
+- ✅ Patterns Completed: **7 / 21**
+- ✅ Problems Solved: **10**
+- 📅 Current Day: **Day 10**
 
 ---
 
@@ -31,7 +31,7 @@
 | Prefix Sum / Suffix | ⭐⭐⭐⭐☆ | ✅ | 1 |
 | Binary Search | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Intervals | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Stack | ⭐⭐⭐⭐⭐ | ✅ | 1 |
+| Stack | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue | ⭐⭐⭐☆☆ | ⬜ | 0 |
 | Linked List | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Trees | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
@@ -266,6 +266,7 @@ Space: **O(n)**
 ### Problems
 
 - [x] 20. Valid Parentheses
+- [x] 155. Min Stack
 
 ---
 

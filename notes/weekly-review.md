@@ -45,3 +45,22 @@ Confidence
 DSA ⭐⭐⭐⭐⭐
 
 JavaScript ⭐⭐⭐⭐☆
+
+## Day 10
+
+DSA
+
+- Solved Min Stack using two stacks.
+- Learned how auxiliary data structures help achieve O(1) operations.
+
+JavaScript
+
+- Learned prototype-based inheritance.
+- Understood property lookup and prototype chaining.
+- Clarified the relationship between constructor functions and classes.
+
+Confidence
+
+DSA ⭐⭐⭐⭐⭐
+
+JavaScript ⭐⭐⭐⭐☆
