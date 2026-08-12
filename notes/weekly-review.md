@@ -1,66 +1,114 @@
-## Week Summary
+# 📅 Weekly Review
 
-### DSA
+## Review Period
+
+**Day 1 → Day 11**
+
+---
+
+## 🎯 Overall Progress
+
+This period focused on building a strong foundation for technical interviews across:
+
+- DSA pattern recognition
+- DSA problem solving
+- JavaScript fundamentals
+- JavaScript internals
+- Interview explanation skills
+
+The main improvement has been moving from simply solving problems to understanding **why a particular approach works and how to explain it**.
+
+---
+
+# 📊 Progress Summary
+
+## DSA
+
+### Patterns Covered
 
 - Hashing
-- Prefix / Suffix
-- Sliding Window
 - Two Pointers
-- Kadane's Algorithm
+- Sliding Window
+- Prefix / Suffix
 - Binary Search
+- Stack
+- Queue
+- Kadane's Algorithm
 
-### JavaScript
+### Problems Solved
+
+**11 problems**
+
+The focus was not only on getting accepted solutions, but also on:
+
+- Identifying the underlying pattern
+- Thinking about alternative approaches
+- Understanding complexity
+- Questioning whether an approach remains efficient with repeated operations
+- Improving interview explanation
+
+---
+
+## JavaScript
+
+### Topics Covered
 
 - var / let / const
 - Hoisting
-- Type Coercion
-- Closures
+- TDZ
+- Execution Context
+- Call Stack
+- Event Loop
 - Promises
 - Async / Await
-- Execution Context
-- Event Loop
-
-### Focus Next Week
-
-- Stack
-- Queue
+- Type Coercion
+- Closures
 - `this`
-- call / apply / bind
+- `call()`
+- `apply()`
+- `bind()`
+- Prototype
+- Prototype Chain
+- `Object.create()`
+- `new`
+- First-Class Functions
+- Higher-Order Functions
 
-## Day 9 Summary
+The focus has gradually moved from JavaScript syntax toward **JavaScript runtime behavior and internals**.
 
-DSA
+---
 
-- Solved first Stack problem.
-- Pattern recognition improving consistently.
+# 💡 Biggest Learning This Period
 
-JavaScript
+## DSA
 
-- Learned `this`.
-- Learned call/apply/bind.
-- Need to revise strict mode behavior.
+The biggest improvement is understanding that an operation being **O(n) once** does not automatically mean the entire algorithm is O(n) for every sequence of operations.
 
-Confidence
+This became clear while learning Queue using Stacks and understanding **amortized complexity**.
 
-DSA ⭐⭐⭐⭐⭐
+The learning approach is becoming:
 
-JavaScript ⭐⭐⭐⭐☆
+> Don't just ask "What is the complexity of this operation?"
 
-## Day 10
+Also ask:
 
-DSA
+> "How often can this expensive operation actually happen?"
 
-- Solved Min Stack using two stacks.
-- Learned how auxiliary data structures help achieve O(1) operations.
+---
 
-JavaScript
+## JavaScript
 
-- Learned prototype-based inheritance.
-- Understood property lookup and prototype chaining.
-- Clarified the relationship between constructor functions and classes.
+The biggest improvement is understanding relationships between concepts rather than learning them independently.
 
-Confidence
+Examples:
 
-DSA ⭐⭐⭐⭐⭐
-
-JavaScript ⭐⭐⭐⭐☆
+```text
+Lexical Scope
+     ↓
+Closures
+     ↓
+var / let behavior
+     ↓
+Async callbacks
+     ↓
+Event Loop

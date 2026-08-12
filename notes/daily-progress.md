@@ -201,3 +201,84 @@ Interview Scores
 DSA: 9.9 / 10
 
 JavaScript: 8.8 / 10
+
+
+
+# Day 11
+
+## DSA
+
+### Problem
+
+232. Implement Queue using Stacks
+
+### Pattern
+
+Queue + Two Stacks
+
+### Key Learning
+
+Initially questioned whether moving all elements from `stack2` to `stack1` would make the solution O(n).
+
+Learned the difference between:
+
+- Worst-case complexity of one operation
+- Amortized complexity across many operations
+
+Final understanding:
+
+> Each element is transferred at most once, therefore `pop()` and `peek()` are O(1) amortized.
+
+---
+
+## JavaScript
+
+### Topics
+
+- Closures
+- Lexical Environment
+- First-Class Functions
+- Higher-Order Functions
+- `var` vs `let`
+- Closure + Event Loop
+
+### Output Question
+
+```js
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => {
+        console.log(i);
+    }, 0);
+}
+```
+
+Output:
+
+```text
+3
+3
+3
+```
+
+Reason:
+
+All callbacks close over the same `var` binding.
+
+With `let`:
+
+```text
+0
+1
+2
+```
+
+because each iteration has a separate binding.
+
+---
+
+## Interview Mistakes
+
+- Initially described `var` as global instead of function-scoped.
+- Initially defined higher-order functions only as functions that return functions.
+- Needed clarification on why transferring stack elements still gives O(1) amortized complexity.
+

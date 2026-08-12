@@ -5,6 +5,7 @@
 > 🎯 **Goal**
 >
 > Learn:
+>
 > - How to recognize a pattern
 > - When to apply it
 > - Explain the solution clearly in interviews
@@ -16,42 +17,42 @@
 
 ## Overall Statistics
 
-- ✅ Patterns Completed: **7 / 21**
-- ✅ Problems Solved: **10**
-- 📅 Current Day: **Day 10**
+- ✅ Patterns Completed: **8 / 21**
+- ✅ Problems Solved: **11**
+- 📅 Current Day: **Day 11**
 
 ---
 
-| Pattern | Importance | Status | Problems |
-|---------|:----------:|:------:|:-------:|
-| Arrays | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
-| Hashing | ⭐⭐⭐⭐⭐ | ✅ | 1 |
-| Two Pointers | ⭐⭐⭐⭐⭐ | ✅ | 1 |
-| Sliding Window | ⭐⭐⭐⭐⭐ | ✅ | 2 |
-| Prefix Sum / Suffix | ⭐⭐⭐⭐☆ | ✅ | 1 |
-| Binary Search | ⭐⭐⭐⭐⭐ | ✅ | 2 |
-| Intervals | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Stack | ⭐⭐⭐⭐⭐ | ✅ | 2 |
-| Queue | ⭐⭐⭐☆☆ | ⬜ | 0 |
-| Linked List | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Trees | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Pattern               | Importance | Status | Problems |
+| --------------------- | :--------: | :----: | :-------: |
+| Arrays                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Hashing               | ⭐⭐⭐⭐⭐ | ✅ | 1 |
+| Two Pointers          | ⭐⭐⭐⭐⭐ | ✅ | 1 |
+| Sliding Window        | ⭐⭐⭐⭐⭐ | ✅ | 2 |
+| Prefix Sum / Suffix   | ⭐⭐⭐⭐☆ | ✅ | 1 |
+| Binary Search         | ⭐⭐⭐⭐⭐ | ✅ | 2 |
+| Intervals             | ⭐⭐⭐⭐☆ | ⬜ | 0 |
+| Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
+| Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
+| Linked List            | ⭐⭐⭐⭐☆ | ⬜ | 0 |
+| Trees                  | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Graphs | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
-| Union Find | ⭐⭐⭐☆☆ | ⬜ | 0 |
-| Backtracking | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Dynamic Programming | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
-| Greedy | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Trie | ⭐⭐⭐☆☆ | ⬜ | 0 |
-| Bit Manipulation | ⭐⭐⭐⭐☆ | ⬜ | 0 |
-| Math | ⭐⭐⭐☆☆ | ⬜ | 0 |
-| Kadane's Algorithm | ⭐⭐⭐⭐⭐ | ✅ | 1 |
+| Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Union Find             | ⭐⭐⭐☆☆ | ⬜ | 0 |
+| Backtracking           | ⭐⭐⭐⭐☆ | ⬜ | 0 |
+| Dynamic Programming    | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Greedy                 | ⭐⭐⭐⭐☆ | ⬜ | 0 |
+| Trie                   | ⭐⭐⭐☆☆ | ⬜ | 0 |
+| Bit Manipulation       | ⭐⭐⭐⭐☆ | ⬜ | 0 |
+| Math                   | ⭐⭐⭐☆☆ | ⬜ | 0 |
+| Kadane's Algorithm     | ⭐⭐⭐⭐⭐ | ✅ | 1 |
 
 ---
 
 # 📌 Pattern Recognition Cheat Sheet
 
 | If the problem mentions... | Think About |
-|----------------------------|-------------|
+| -------------------------- | ------------------- |
 | Duplicate, Frequency | Hashing |
 | Pair, Sorted Array | Two Pointers |
 | Longest / Smallest Window | Sliding Window |
@@ -59,7 +60,7 @@
 | Sorted Array | Binary Search |
 | Merge Intervals | Intervals |
 | Parentheses | Stack |
-| BFS | Queue |
+| FIFO, BFS, Scheduling | Queue |
 | Reverse Linked List | Linked List |
 | Tree Traversal | Trees |
 | Top K | Heap |
@@ -232,7 +233,6 @@ Space: **O(1)**
 - [x] 704. Binary Search
 - [x] 35. Search Insert Position
 
-
 ---
 
 # 7. Stack
@@ -270,14 +270,63 @@ Space: **O(n)**
 
 ---
 
+# 8. Queue
+
+### Description
+
+Use the **First-In-First-Out (FIFO)** principle.
+
+A queue can be implemented using two stacks by reversing the order of elements when required.
+
+### Recognition Clues
+
+- FIFO
+- BFS
+- Scheduling
+- Processing in arrival order
+- Stream processing
+
+### Common Topics
+
+- Queue implementation
+- Queue using stacks
+- Circular Queue
+- BFS
+- Deque
+
+### Complexity
+
+For a queue implemented using two stacks:
+
+- `push()` → **O(1)**
+- `pop()` → **O(1) amortized**
+- `peek()` → **O(1) amortized**
+- `empty()` → **O(1)**
+
+### Key Insight
+
+Use two stacks:
+
+- `stack2` receives new elements.
+- `stack1` provides elements for `pop()` and `peek()`.
+- When `stack1` is empty, transfer all elements from `stack2` to `stack1`.
+
+Although transferring elements can take **O(n)** for one operation, each element is transferred at most once.
+
+Therefore, `pop()` and `peek()` are **O(1) amortized**.
+
+### Problems
+
+- [x] 232. Implement Queue using Stacks
+
+---
+
 # Remaining Patterns
 
 - Intervals
-- Stack
-- Queue
 - Linked List
 - Trees
-- Heap
+- Heap / Priority Queue
 - Graphs
 - Union Find
 - Backtracking
@@ -324,14 +373,14 @@ Every problem in this repository follows:
 
 ## Phase 1 — Foundation
 
-- ✅ Arrays
+- ⬜ Arrays
 - ✅ Hashing
 - ✅ Two Pointers
 - ✅ Sliding Window
 - ✅ Prefix Sum / Suffix
 - ✅ Binary Search
 - ✅ Stack
-- ⬜ Queue
+- ✅ Queue
 
 ---
 

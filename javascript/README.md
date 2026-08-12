@@ -14,15 +14,15 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## Overall Statistics
 
-- ✅ Topics Completed: **13**
-- 📅 Current Day: **Day 10**
+- ✅ Topics Completed: **16**
+- 📅 Current Day: **Day 11**
 
 ---
 
 ## ✅ Completed Topics
 
 | Topic | Status |
-|--------|:------:|
+|---|:---:|
 | var / let / const | ✅ |
 | Hoisting | ✅ |
 | Execution Context | ✅ |
@@ -35,13 +35,18 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 | `this` Keyword | ✅ |
 | `call()` / `apply()` / `bind()` | ✅ |
 | Prototype & Prototype Chain | ✅ |
+| First-Class Functions | ✅ |
+| Higher-Order Functions | ✅ |
+| `var` vs `let` with Closures | ✅ |
+| Closure + Event Loop | ✅ |
 
 ---
 
 ## 🆕 Recently Completed
 
 | Day | Topic |
-|-----|-------|
+|---|---|
+| Day 11 | Closures, First-Class Functions, Higher-Order Functions, `var` vs `let` |
 | Day 10 | Prototype & Prototype Chain |
 | Day 9 | `this`, `call()`, `apply()`, `bind()` |
 | Day 8 | Event Loop, Call Stack |
@@ -49,9 +54,9 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ---
 
-## 📚 Learning Roadmap
+# 📚 Learning Roadmap
 
-### Phase 1 — JavaScript Fundamentals
+## Phase 1 — JavaScript Fundamentals
 
 - ✅ var / let / const
 - ✅ Hoisting
@@ -69,9 +74,12 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ---
 
-### Phase 2 — Intermediate JavaScript
+## Phase 2 — Intermediate JavaScript
 
 - ✅ Prototype & Prototype Chain
+- ✅ First-Class Functions
+- ✅ Higher-Order Functions
+- ✅ Closure + Event Loop
 - ⬜ Objects
 - ⬜ Functions Deep Dive
 - ⬜ Modules (ESM/CommonJS)
@@ -82,7 +90,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ---
 
-### Phase 3 — Advanced JavaScript
+## Phase 3 — Advanced JavaScript
 
 - ⬜ Generators
 - ⬜ Iterators
@@ -97,7 +105,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 # 📂 Folder Structure
 
-```
+```text
 javascript/
 │
 ├── README.md
@@ -110,43 +118,4 @@ javascript/
 ├── this.md
 ├── type-coercion.md
 └── var-let-const.md
-```
-
----
-
-# 🎯 Interview Strategy
-
-For every topic:
-
-1. Understand the concept.
-2. Know why it works.
-3. Predict code output.
-4. Explain it in simple words.
-5. Know common interview questions.
-6. Write examples from memory.
-
----
-
-# 📝 Notes Template
-
-Every topic should include:
-
-- Definition
-- Real-world use case
-- Examples
-- Common mistakes
-- Interview questions
-- Key takeaways
-
----
-
-# 📚 Resources
-
-- JavaScript.info
-- MDN Web Docs
-- You Don't Know JS
-- ECMAScript Specification (Reference)
-
----
-
-⭐ **Goal:** Become confident enough to explain any JavaScript concept without memorizing answers.
+└── var-vs-let-closures.md

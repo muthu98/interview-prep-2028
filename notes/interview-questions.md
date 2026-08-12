@@ -107,7 +107,6 @@ Difference between Function Declaration and Function Expression?
 
 Why does `var` print `undefined`?
 
-
 ## Binary Search
 
 - Why return `left` instead of `right`?
@@ -126,7 +125,6 @@ Why does `var` print `undefined`?
 - Difference between Microtask and Macrotask?
 - Why does Promise execute before setTimeout()?
 - Does setTimeout(fn, 0) execute immediately?
-
 
 # Day 9
 
@@ -161,7 +159,30 @@ Why does `var` print `undefined`?
 
 - What is a prototype?
 - What is prototype chaining?
-- Difference between prototype and __proto__?
+- Difference between prototype and **proto**?
 - How does new work?
 - How does Object.create() work?
 - Are classes built on prototypes?
+
+# Day 11
+
+## DSA — Queue Using Stacks
+
+- Why use two stacks?
+- Why can one `pop()` operation be O(n)?
+- Why is `pop()` O(1) amortized?
+- Why don't we transfer elements after every pop?
+- What happens when `stack1` becomes empty?
+
+## JavaScript
+
+- What is a closure?
+- What is a lexical environment?
+- Why does a closure retain variables?
+- What is a first-class function?
+- What is a higher-order function?
+- Difference between function declaration and function expression?
+- Difference between regular function and arrow function?
+- Why does `var` produce `3 3 3`?
+- Why does `let` produce `0 1 2`?
+- What is the relationship between closure and event loop?

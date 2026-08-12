@@ -219,3 +219,75 @@ Correct
 Class methods are stored on the class prototype.
 
 Classes are syntactic sugar over constructor functions.
+
+
+# Day 11
+
+## DSA
+
+### Mistake
+
+Concern:
+
+> Moving all `stack2` elements to `stack1` is O(n), so won't the solution be inefficient?
+
+### Correction
+
+A single transfer is O(n), but each element is transferred at most once.
+
+Therefore:
+
+- `pop()` → O(1) amortized
+- `peek()` → O(1) amortized
+
+---
+
+## JavaScript
+
+### Mistake 1
+
+❌ `var` is global.
+
+✅ `var` is function-scoped.
+
+### Mistake 2
+
+❌ Higher-order function means a function that returns another function.
+
+✅ A higher-order function can accept a function, return a function, or both.
+
+### Mistake 3
+
+Initially needed clarification on why:
+
+```js
+var
+```
+
+produces:
+
+```text
+3
+3
+3
+```
+
+while:
+
+```js
+let
+```
+
+produces:
+
+```text
+0
+1
+2
+```
+
+### Correct Understanding
+
+`var` → shared binding.
+
+`let` → separate binding for each loop iteration.
