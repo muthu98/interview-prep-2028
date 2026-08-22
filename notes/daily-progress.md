@@ -282,3 +282,31 @@ because each iteration has a separate binding.
 - Initially defined higher-order functions only as functions that return functions.
 - Needed clarification on why transferring stack elements still gives O(1) amortized complexity.
 
+---
+
+# Day 12
+
+## DSA
+
+### Fundamentals
+
+- A linked-list node stores a value and a `next` reference.
+- Arrays support direct indexed access; linked lists require traversal, so access by position is O(n).
+- Insertion or deletion is O(1) only when the needed node/reference is already available; finding it can still take O(n).
+- Deleting the tail of a singly linked list is O(n) when its previous node must be found.
+
+### Problem
+
+- 206. Reverse Linked List
+- Pattern: Linked List / Pointer Reversal
+
+### Learning Progression
+
+- First created new `ListNode` nodes, producing a correct reversed list with O(n) extra space.
+- Then used object spread, but each spread still created a new object and therefore still used O(n) extra space.
+- Finally reused the existing nodes: save `head.next`, reverse the current link, and advance both pointers.
+- Final complexity: O(n) time and O(1) extra space.
+
+## JavaScript
+
+No JavaScript topic was completed for Day 12.

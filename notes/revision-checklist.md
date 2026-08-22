@@ -16,7 +16,7 @@
 - [ ] Graphs
 - [ ] Dynamic Programming
 - [ ] Intervals
-- [ ] Linked List
+- [x] Linked List
 - [ ] Greedy
 - [ ] Trie
 - [ ] Bit Manipulation
@@ -62,6 +62,10 @@
 ### Queue
 
 - [x] 232. Implement Queue using Stacks
+
+### Linked List
+
+- [x] 206. Reverse Linked List
 
 ---
 
@@ -114,6 +118,18 @@
 - [x] Amortized O(1) peek
 - [ ] Circular Queue
 - [ ] Deque
+
+---
+
+# Linked List
+
+- [x] Node and `next` references
+- [x] Array access vs linked-list traversal
+- [x] In-place pointer reversal
+- [x] Save the next node before changing a link
+- [x] O(1) insertion/deletion nuance
+- [ ] Re-solve 206. Reverse Linked List without notes
+- [ ] Explain tail deletion in a singly linked list
 
 ---
 
@@ -201,6 +217,8 @@
 
 ## High Priority
 
+- [ ] Re-solve Reverse Linked List in place
+- [ ] Explain linked-list access, insertion, and deletion complexity
 - [ ] Re-solve Stack problems without notes
 - [ ] Re-solve Queue using Stacks
 - [ ] Explain amortized complexity
@@ -223,7 +241,6 @@
 - [ ] Trees
 - [ ] Graphs
 - [ ] Dynamic Programming
-- [ ] Linked List
 - [ ] Intervals
 - [ ] Greedy
 - [ ] Trie
