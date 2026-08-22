@@ -291,3 +291,30 @@ produces:
 `var` → shared binding.
 
 `let` → separate binding for each loop iteration.
+
+---
+
+# Day 12
+
+## DSA
+
+### Mistake
+
+Used new `ListNode` instances, and then object spread, to build the reversed list.
+
+Both approaches produced the correct values but created one new object per node, so they used O(n) extra space and did not reverse the original nodes in place.
+
+### Correction
+
+Save the next node before changing the current link:
+
+```js
+const next = head.next;
+head.next = previous;
+```
+
+Then advance `previous` and `head`. Reusing the existing nodes reduces extra space to O(1).
+
+### Complexity Nuance
+
+Linked-list insertion or deletion is not always O(1). The pointer change is O(1) when the relevant reference is already known, but locating a node, its predecessor, or the tail can require O(n) traversal.

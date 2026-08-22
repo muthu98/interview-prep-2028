@@ -17,9 +17,9 @@
 
 ## Overall Statistics
 
-- ✅ Patterns Completed: **8 / 21**
-- ✅ Problems Solved: **11**
-- 📅 Current Day: **Day 11**
+- ✅ Patterns Completed: **9 / 21**
+- ✅ Problems Solved: **12**
+- 📅 Current Day: **Day 12**
 
 ---
 
@@ -34,7 +34,7 @@
 | Intervals             | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
-| Linked List            | ⭐⭐⭐⭐☆ | ⬜ | 0 |
+| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 1 |
 | Trees                  | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
@@ -321,10 +321,34 @@ Therefore, `pop()` and `peek()` are **O(1) amortized**.
 
 ---
 
+# 9. Linked List
+
+### Description
+
+Store values in nodes connected by `next` references rather than contiguous indexes.
+
+### Recognition Clues
+
+- Reverse or reconnect nodes
+- Traverse using `next`
+- Insert or delete through references
+- Slow and fast pointers
+
+### Complexity
+
+- Access by position: **O(n)**
+- Insert/delete with the relevant node reference: **O(1)**
+- Find a node or the tail without a stored reference: **O(n)**
+
+### Problems
+
+- [x] 206. Reverse Linked List
+
+---
+
 # Remaining Patterns
 
 - Intervals
-- Linked List
 - Trees
 - Heap / Priority Queue
 - Graphs
@@ -381,6 +405,7 @@ Every problem in this repository follows:
 - ✅ Binary Search
 - ✅ Stack
 - ✅ Queue
+- ✅ Linked List
 
 ---
 

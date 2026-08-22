@@ -2,7 +2,7 @@
 
 ## Review Period
 
-**Day 1 → Day 11**
+**Day 1 → Day 12**
 
 ---
 
@@ -33,11 +33,12 @@ The main improvement has been moving from simply solving problems to understandi
 - Binary Search
 - Stack
 - Queue
+- Linked List
 - Kadane's Algorithm
 
 ### Problems Solved
 
-**11 problems**
+**12 problems**
 
 The focus was not only on getting accepted solutions, but also on:
 
