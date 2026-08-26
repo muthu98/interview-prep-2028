@@ -310,3 +310,35 @@ because each iteration has a separate binding.
 ## JavaScript
 
 No JavaScript topic was completed for Day 12.
+
+---
+
+# Day 13
+
+## DSA
+
+### Problem
+
+- 141. Linked List Cycle
+- Pattern: Linked List + Hashing
+
+### Learning Progression
+
+- Initially described using a `Map` to store each node and its position.
+- Correctly recognized that revisiting a node means the list contains a cycle.
+- Simplified the implementation to a `Set` because the stored position was unnecessary.
+- Completed the O(n)-time, O(n)-extra-space solution using node references.
+- The O(1)-extra-space optimization remains pending.
+
+## JavaScript
+
+### Topic
+
+- Debounce
+
+### Key Learning
+
+- Preserved the timer identifier with a closure.
+- Cancelled the previous timer before scheduling a new call.
+- Forwarded arguments with rest parameters.
+- Preserved `this` using an arrow timer callback and `func.apply(this, args)`.

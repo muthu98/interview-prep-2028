@@ -318,3 +318,19 @@ Then advance `previous` and `head`. Reusing the existing nodes reduces extra spa
 ### Complexity Nuance
 
 Linked-list insertion or deletion is not always O(1). The pointer change is O(1) when the relevant reference is already known, but locating a node, its predecessor, or the tail can require O(n) traversal.
+
+---
+
+# Day 13
+
+## DSA
+
+### Correction 1
+
+Initially planned to store every node and its position in a `Map`.
+
+The position is not needed for cycle detection. A `Set` of visited node references is sufficient and expresses the requirement more clearly.
+
+### Correction 2
+
+Cycle detection must compare node references, not node values. Two different nodes may contain the same value without forming a cycle.
