@@ -67,6 +67,7 @@
 
 - [x] 206. Reverse Linked List
 - [x] 141. Linked List Cycle
+- [x] 21. Merge Two Sorted Lists
 
 ---
 
@@ -133,6 +134,8 @@
 - [ ] Explain tail deletion in a singly linked list
 - [x] Detect a repeated node using a `Set`
 - [ ] Detect a linked-list cycle with O(1) extra space
+- [x] Merge sorted lists by reconnecting existing nodes
+- [ ] Re-solve 21. Merge Two Sorted Lists without notes
 
 ---
 
@@ -199,7 +202,7 @@
 ## JavaScript Revision Topics
 
 - [x] Debounce
-- [ ] Throttle
+- [x] Throttle
 - [ ] Modules
 - [ ] Error Handling
 - [ ] Memory Management
@@ -223,6 +226,7 @@
 - [ ] Optimize Linked List Cycle to O(1) extra space
 - [ ] Implement debounce without notes
 - [ ] Explain debounce vs throttle
+- [ ] Implement leading-edge throttle without notes
 - [ ] Re-solve Reverse Linked List in place
 - [ ] Explain linked-list access, insertion, and deletion complexity
 - [ ] Re-solve Stack problems without notes

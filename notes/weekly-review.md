@@ -2,7 +2,7 @@
 
 ## Review Period
 
-**Day 1 → Day 13**
+**Day 1 → Day 14**
 
 ---
 
@@ -38,7 +38,7 @@ The main improvement has been moving from simply solving problems to understandi
 
 ### Problems Solved
 
-**13 problems**
+**14 problems**
 
 The focus was not only on getting accepted solutions, but also on:
 
@@ -75,6 +75,7 @@ The focus was not only on getting accepted solutions, but also on:
 - First-Class Functions
 - Higher-Order Functions
 - Debounce
+- Throttle
 
 The focus has gradually moved from JavaScript syntax toward **JavaScript runtime behavior and internals**.
 

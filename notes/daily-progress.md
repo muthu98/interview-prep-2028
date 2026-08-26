@@ -342,3 +342,37 @@ No JavaScript topic was completed for Day 12.
 - Cancelled the previous timer before scheduling a new call.
 - Forwarded arguments with rest parameters.
 - Preserved `this` using an arrow timer callback and `func.apply(this, args)`.
+
+---
+
+# Day 14
+
+## DSA
+
+### Problem
+
+- 21. Merge Two Sorted Lists
+- Pattern: Linked List / Pointer Merge
+
+### Learning Progression
+
+- Correctly compared the current nodes and tracked the merged head and tail.
+- Initially copied selected nodes with object spread.
+- Renamed the pointers more clearly, but recognized that renaming did not remove the node copies.
+- Final solution connected the existing nodes directly.
+- Completed the merge in O(n + m) time and O(1) extra space.
+
+## JavaScript
+
+### Topic
+
+- Leading-edge throttle
+
+### Key Learning
+
+- Stored a waiting flag in a closure.
+- Executed the first call immediately.
+- Ignored calls received during the delay.
+- Preserved arguments and `this` with `func.apply(this, args)`.
+- The implementation intentionally does not perform a trailing call.
+- A precise throttle-versus-debounce explanation remains to revise.
