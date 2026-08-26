@@ -18,8 +18,8 @@
 ## Overall Statistics
 
 - ✅ Patterns Completed: **9 / 21**
-- ✅ Problems Solved: **12**
-- 📅 Current Day: **Day 12**
+- ✅ Problems Solved: **13**
+- 📅 Current Day: **Day 13**
 
 ---
 
@@ -34,7 +34,7 @@
 | Intervals             | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
-| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 1 |
+| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 2 |
 | Trees                  | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
@@ -62,6 +62,7 @@
 | Parentheses | Stack |
 | FIFO, BFS, Scheduling | Queue |
 | Reverse Linked List | Linked List |
+| Cycle or repeated node reference | Linked List |
 | Tree Traversal | Trees |
 | Top K | Heap |
 | Shortest Path | Graphs |
@@ -343,6 +344,7 @@ Store values in nodes connected by `next` references rather than contiguous inde
 ### Problems
 
 - [x] 206. Reverse Linked List
+- [x] 141. Linked List Cycle
 
 ---
 

@@ -66,6 +66,7 @@
 ### Linked List
 
 - [x] 206. Reverse Linked List
+- [x] 141. Linked List Cycle
 
 ---
 
@@ -130,6 +131,8 @@
 - [x] O(1) insertion/deletion nuance
 - [ ] Re-solve 206. Reverse Linked List without notes
 - [ ] Explain tail deletion in a singly linked list
+- [x] Detect a repeated node using a `Set`
+- [ ] Detect a linked-list cycle with O(1) extra space
 
 ---
 
@@ -195,7 +198,7 @@
 
 ## JavaScript Revision Topics
 
-- [ ] Debounce
+- [x] Debounce
 - [ ] Throttle
 - [ ] Modules
 - [ ] Error Handling
@@ -217,6 +220,9 @@
 
 ## High Priority
 
+- [ ] Optimize Linked List Cycle to O(1) extra space
+- [ ] Implement debounce without notes
+- [ ] Explain debounce vs throttle
 - [ ] Re-solve Reverse Linked List in place
 - [ ] Explain linked-list access, insertion, and deletion complexity
 - [ ] Re-solve Stack problems without notes
