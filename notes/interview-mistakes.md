@@ -334,3 +334,21 @@ The position is not needed for cycle detection. A `Set` of visited node referenc
 ### Correction 2
 
 Cycle detection must compare node references, not node values. Two different nodes may contain the same value without forming a cycle.
+
+---
+
+# Day 14
+
+## DSA
+
+### Mistake
+
+Used object spread to copy selected nodes while merging two sorted linked lists.
+
+Renaming the result pointers to `mergedHead` and `tail` made their roles clearer, but the copied nodes still caused extra space usage.
+
+### Correction
+
+Connect the selected existing node directly to `tail.next`, advance `tail`, and then advance only the input list whose node was selected.
+
+The final solution reuses the original nodes and achieves O(1) extra space.

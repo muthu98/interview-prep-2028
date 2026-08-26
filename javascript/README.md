@@ -14,8 +14,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## Overall Statistics
 
-- ✅ Topics Completed: **17**
-- 📅 Current Day: **Day 13**
+- ✅ Topics Completed: **18**
+- 📅 Current Day: **Day 14**
 
 ---
 
@@ -40,6 +40,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 | `var` vs `let` with Closures | ✅ |
 | Closure + Event Loop | ✅ |
 | Debounce | ✅ |
+| Throttle | ✅ |
 
 ---
 
@@ -47,6 +48,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 | Day | Topic |
 |---|---|
+| Day 14 | Throttle |
 | Day 13 | Debounce |
 | Day 11 | Closures, First-Class Functions, Higher-Order Functions, `var` vs `let` |
 | Day 10 | Prototype & Prototype Chain |
@@ -83,6 +85,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 - ✅ Higher-Order Functions
 - ✅ Closure + Event Loop
 - ✅ Debounce
+- ✅ Throttle
 - ⬜ Objects
 - ⬜ Functions Deep Dive
 - ⬜ Modules (ESM/CommonJS)
