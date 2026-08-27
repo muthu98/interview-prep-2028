@@ -2,7 +2,7 @@
 
 ## Review Period
 
-**Day 1 → Day 14**
+**Day 1 → Day 15**
 
 ---
 
@@ -38,7 +38,7 @@ The main improvement has been moving from simply solving problems to understandi
 
 ### Problems Solved
 
-**14 problems**
+**15 problems**
 
 The focus was not only on getting accepted solutions, but also on:
 
@@ -76,6 +76,7 @@ The focus was not only on getting accepted solutions, but also on:
 - Higher-Order Functions
 - Debounce
 - Throttle
+- Custom `Promise.all`
 
 The focus has gradually moved from JavaScript syntax toward **JavaScript runtime behavior and internals**.
 

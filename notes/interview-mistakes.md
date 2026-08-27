@@ -352,3 +352,43 @@ Renaming the result pointers to `mergedHead` and `tail` made their roles clearer
 Connect the selected existing node directly to `tail.next`, advance `tail`, and then advance only the input list whose node was selected.
 
 The final solution reuses the original nodes and achieves O(1) extra space.
+
+---
+
+# Day 15
+
+## DSA
+
+### Incomplete Optimization
+
+The length-based solution was correct and had optimal Big-O complexity, but it used two passes and did not satisfy the one-pass follow-up.
+
+### Correction
+
+Use a dummy node and maintain an `n + 1` gap between fast and slow pointers. When `fast` reaches `null`, `slow` is immediately before the node to remove.
+
+## JavaScript
+
+### Mistake 1
+
+Used `map` with an async callback and expected one combined Promise.
+
+### Correction
+
+Async `map` returns an array of Promises. Return one outer Promise and settle it explicitly.
+
+### Mistake 2
+
+Awaited an input and then attempted to call `.then()` on its resolved value.
+
+### Correction
+
+Normalize the original input with `Promise.resolve(value)` before attaching handlers.
+
+### Mistake 3
+
+Returned a results array from the Promise executor and stored rejection reasons as successful results.
+
+### Correction
+
+Returning from the executor does not settle the Promise. Call `resolve(results)` only after all inputs fulfill, and call `reject(error)` immediately when one input rejects.
