@@ -376,3 +376,37 @@ No JavaScript topic was completed for Day 12.
 - Preserved arguments and `this` with `func.apply(this, args)`.
 - The implementation intentionally does not perform a trailing call.
 - A precise throttle-versus-debounce explanation remains to revise.
+
+---
+
+# Day 15
+
+## DSA
+
+### Problem
+
+- 19. Remove Nth Node From End of List
+- Pattern: Linked List / Fast and Slow Pointers
+
+### Learning Progression
+
+- First calculated the length and removed the target in a second traversal.
+- Recognized that this was O(L) time and O(1) space but did not satisfy the one-pass follow-up.
+- Learned to maintain an `n + 1` gap between fast and slow pointers.
+- Used a dummy node to handle removing the head uniformly.
+- Completed the one-pass O(L)-time, O(1)-space solution.
+
+## JavaScript
+
+### Topic
+
+- Custom `Promise.all`
+
+### Learning Progression
+
+- Initially used an async `map`, which returned an array of Promises rather than one Promise.
+- Learned to normalize inputs with `Promise.resolve`.
+- Preserved input order by storing results at their original indexes.
+- Used a completion counter and handled empty input.
+- Implemented fail-fast rejection and understood that remaining operations are not cancelled.
+- Compared `Promise.all` with `Promise.allSettled`; a custom `allSettled` implementation was not completed.

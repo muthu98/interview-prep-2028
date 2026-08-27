@@ -68,6 +68,7 @@
 - [x] 206. Reverse Linked List
 - [x] 141. Linked List Cycle
 - [x] 21. Merge Two Sorted Lists
+- [x] 19. Remove Nth Node From End of List
 
 ---
 
@@ -136,6 +137,9 @@
 - [ ] Detect a linked-list cycle with O(1) extra space
 - [x] Merge sorted lists by reconnecting existing nodes
 - [ ] Re-solve 21. Merge Two Sorted Lists without notes
+- [x] Remove nth node using an `n + 1` pointer gap
+- [x] Use a dummy node for uniform head deletion
+- [ ] Re-solve 19. Remove Nth Node From End without notes
 
 ---
 
@@ -203,6 +207,9 @@
 
 - [x] Debounce
 - [x] Throttle
+- [x] Custom `Promise.all`
+- [ ] Implement custom `Promise.all` without notes
+- [ ] Implement custom `Promise.allSettled`
 - [ ] Modules
 - [ ] Error Handling
 - [ ] Memory Management
@@ -223,6 +230,8 @@
 
 ## High Priority
 
+- [ ] Explain `Promise.all` fail-fast behavior
+- [ ] Explain `Promise.all` vs `Promise.allSettled`
 - [ ] Optimize Linked List Cycle to O(1) extra space
 - [ ] Implement debounce without notes
 - [ ] Explain debounce vs throttle
