@@ -14,8 +14,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## Overall Statistics
 
-- ✅ Topics Completed: **19**
-- 📅 Current Day: **Day 15**
+- ✅ Topics Completed: **20**
+- 📅 Current Day: **Day 16**
 
 ---
 
@@ -42,6 +42,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 | Debounce | ✅ |
 | Throttle | ✅ |
 | Custom `Promise.all` | ✅ |
+| Custom EventEmitter | ✅ |
 
 ---
 
@@ -49,6 +50,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 | Day | Topic |
 |---|---|
+| Day 16 | Custom EventEmitter |
 | Day 15 | Custom `Promise.all` |
 | Day 14 | Throttle |
 | Day 13 | Debounce |
@@ -89,6 +91,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 - ✅ Debounce
 - ✅ Throttle
 - ✅ Custom `Promise.all`
+- ✅ Custom EventEmitter
 - ⬜ Objects
 - ⬜ Functions Deep Dive
 - ⬜ Modules (ESM/CommonJS)

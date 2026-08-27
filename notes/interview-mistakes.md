@@ -392,3 +392,43 @@ Returned a results array from the Promise executor and stored rejection reasons 
 ### Correction
 
 Returning from the executor does not settle the Promise. Call `resolve(results)` only after all inputs fulfill, and call `reject(error)` immediately when one input rejects.
+
+---
+
+# Day 16
+
+## DSA
+
+### Mistake
+
+Initially planned to reverse the whole list and then interleave nodes. A full reversal removes the forward traversal needed for the first, second, and later original nodes.
+
+### Correction
+
+Keep the first half in its original order, reverse only the second half, and merge the halves alternately. Counting and splitting are still O(n), and the pointer operations use O(1) extra space.
+
+## JavaScript
+
+### Mistake 1
+
+Used separate Maps for `on()` and `once()` listeners. Even if both groups are emitted, grouping by Map cannot preserve mixed registration order.
+
+### Correction
+
+Store ordered `{ listener, once }` entries together for each event.
+
+### Mistake 2
+
+Initially removed once-only listeners after invoking them and iterated the live listener array.
+
+### Correction
+
+Iterate over a snapshot and remove the exact once registration before invocation. This prevents a reentrant `emit()` from calling it again and prevents listener mutations from corrupting the current pass.
+
+### Mistake 3
+
+Initially treated `Map.has()` like value access, used the return value of `push()`, and made `off()` delete the entire event.
+
+### Correction
+
+Use `has()` only for membership, `get()` for the listener array, and remove only the matching registration when a listener is supplied.

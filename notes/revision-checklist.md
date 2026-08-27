@@ -69,6 +69,7 @@
 - [x] 141. Linked List Cycle
 - [x] 21. Merge Two Sorted Lists
 - [x] 19. Remove Nth Node From End of List
+- [x] 143. Reorder List
 
 ---
 
@@ -140,6 +141,8 @@
 - [x] Remove nth node using an `n + 1` pointer gap
 - [x] Use a dummy node for uniform head deletion
 - [ ] Re-solve 19. Remove Nth Node From End without notes
+- [x] Split, reverse, and alternately merge a linked list
+- [ ] Re-solve 143. Reorder List without notes
 
 ---
 
@@ -208,6 +211,9 @@
 - [x] Debounce
 - [x] Throttle
 - [x] Custom `Promise.all`
+- [x] Custom EventEmitter
+- [ ] Implement EventEmitter without notes
+- [ ] Explain listener mutation and reentrancy during `emit()`
 - [ ] Implement custom `Promise.all` without notes
 - [ ] Implement custom `Promise.allSettled`
 - [ ] Modules
@@ -232,6 +238,8 @@
 
 - [ ] Explain `Promise.all` fail-fast behavior
 - [ ] Explain `Promise.all` vs `Promise.allSettled`
+- [ ] Re-solve Reorder List using split, reverse, and merge
+- [ ] Implement EventEmitter without notes
 - [ ] Optimize Linked List Cycle to O(1) extra space
 - [ ] Implement debounce without notes
 - [ ] Explain debounce vs throttle
