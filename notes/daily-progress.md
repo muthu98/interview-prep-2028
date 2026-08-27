@@ -410,3 +410,38 @@ No JavaScript topic was completed for Day 12.
 - Used a completion counter and handled empty input.
 - Implemented fail-fast rejection and understood that remaining operations are not cancelled.
 - Compared `Promise.all` with `Promise.allSettled`; a custom `allSettled` implementation was not completed.
+
+---
+
+# Day 16
+
+## DSA
+
+### Problem
+
+- 143. Reorder List
+- Pattern: Linked List / Split, Reverse, and Merge
+
+### Learning Progression
+
+- First considered reversing the whole list and interleaving it with the original order.
+- Recognized that reversing the entire list loses access to the original forward order.
+- Switched to counting and splitting the list, then realized the second half must be reversed to obtain nodes from the end efficiently.
+- Counted the nodes, split after `Math.ceil(count / 2)`, reversed the second half in place, and merged the two halves alternately.
+- Completed the odd- and even-length cases in O(n) time and O(1) extra space.
+
+## JavaScript
+
+### Topic
+
+- Custom EventEmitter
+
+### Learning Progression
+
+- Started with separate Maps for regular and once-only listeners.
+- Corrected `Map.has()` versus `Map.get()`, array `push()` usage, targeted listener removal, and mixed regular/once emission.
+- Removed once-only listeners before invoking them and emitted from a snapshot to handle reentrancy and mutation safely.
+- Discovered that two Maps lose the registration order between `on()` and `once()` calls.
+- Redesigned storage as one ordered array of `{ listener, once }` entries per event.
+- Used the chosen duplicate-listener contract: `off()` removes the latest matching registration.
+- Completed the implementation; repeated once-listener removal is a possible O(k²) optimization follow-up, not a correctness issue.
