@@ -70,6 +70,7 @@
 - [x] 21. Merge Two Sorted Lists
 - [x] 19. Remove Nth Node From End of List
 - [x] 143. Reorder List
+- [x] 138. Copy List with Random Pointer
 
 ---
 
@@ -143,6 +144,10 @@
 - [ ] Re-solve 19. Remove Nth Node From End without notes
 - [x] Split, reverse, and alternately merge a linked list
 - [ ] Re-solve 143. Reorder List without notes
+- [x] Deep-copy arbitrary node references with an original-to-copy Map
+- [x] Interleave copied nodes to remove Map space
+- [x] Restore the original list while separating the copied list
+- [ ] Re-solve 138. Copy List with Random Pointer without notes
 
 ---
 
@@ -212,6 +217,9 @@
 - [x] Throttle
 - [x] Custom `Promise.all`
 - [x] Custom EventEmitter
+- [x] Promise Concurrency Limiter
+- [ ] Implement `promisePool` without notes
+- [ ] Explain fail-fast scheduling versus cancellation
 - [ ] Implement EventEmitter without notes
 - [ ] Explain listener mutation and reentrancy during `emit()`
 - [ ] Implement custom `Promise.all` without notes
@@ -238,6 +246,8 @@
 
 - [ ] Explain `Promise.all` fail-fast behavior
 - [ ] Explain `Promise.all` vs `Promise.allSettled`
+- [ ] Implement a concurrency limiter with ordered results and fail-fast rejection
+- [ ] Explain why `original.random.next` is the copied random target
 - [ ] Re-solve Reorder List using split, reverse, and merge
 - [ ] Implement EventEmitter without notes
 - [ ] Optimize Linked List Cycle to O(1) extra space

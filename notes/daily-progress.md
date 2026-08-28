@@ -445,3 +445,40 @@ No JavaScript topic was completed for Day 12.
 - Redesigned storage as one ordered array of `{ listener, once }` entries per event.
 - Used the chosen duplicate-listener contract: `off()` removes the latest matching registration.
 - Completed the implementation; repeated once-listener removal is a possible O(k²) optimization follow-up, not a correctness issue.
+
+---
+
+# Day 17
+
+## DSA
+
+### Problem
+
+- 138. Copy List with Random Pointer
+- Pattern: Linked List / Node Mapping and Interleaving
+
+### Learning Progression
+
+- First considered shallow and deep copying with object spread, then learned that `{ ...node }` creates only a new outer node while `next` and `random` still reference original nodes.
+- Proposed the correct two-pass `Map` relationship: original node → copied node.
+- In the first Map attempt, created a separate shallow-copied head and accidentally modified original nodes while wiring the second pass.
+- Corrected the baseline by creating every copied node only through the Map, then translating each original `next` and `random` reference through that Map.
+- Completed the Map solution in O(n) time and O(n) extra space.
+- Optimized by interleaving copies with originals, assigning `copy.random = original.random.next`, and separating both lists while restoring the original.
+- Replaced an initial flag-based random traversal with direct reference mapping; retained a valid dummy-tail separation before reaching the final O(1)-extra-space solution.
+
+## JavaScript
+
+### Topic
+
+- Promise Concurrency Limiter / `promisePool(tasks, limit)`
+
+### Learning Progression
+
+- Started with a queue, running-task count, result index, outer Promise, and scheduler.
+- Corrected an off-by-one concurrency condition, captured each task's index before async work, and preserved input order in a plain results array.
+- Changed failure behavior from all-settled-style results to fail-fast rejection and stopped scheduling queued tasks after the first failure.
+- Used `Promise.resolve().then(() => task())` so synchronous task throws become rejections.
+- Moved completion checks to cleanup: decrement the running count, then resolve only when the queue is empty and no task remains active; otherwise restart the scheduler.
+- Handled empty input with `resolve([])` and completed the required implementation.
+- A non-positive-limit guard and avoiding `queue.shift()` overhead remain optional interview follow-ups.

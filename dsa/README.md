@@ -18,8 +18,8 @@
 ## Overall Statistics
 
 - ✅ Patterns Completed: **9 / 21**
-- ✅ Problems Solved: **16**
-- 📅 Current Day: **Day 16**
+- ✅ Problems Solved: **17**
+- 📅 Current Day: **Day 17**
 
 ---
 
@@ -34,7 +34,7 @@
 | Intervals             | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
-| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 5 |
+| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 6 |
 | Trees                  | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
@@ -66,6 +66,7 @@
 | Merge sorted linked lists | Linked List |
 | Nth node from the end | Linked List / Two Pointers |
 | Reorder a linked list from both ends | Linked List / Reverse and Merge |
+| Copy nodes with arbitrary references | Linked List / Hash Map or Interleaving |
 | Tree Traversal | Trees |
 | Top K | Heap |
 | Shortest Path | Graphs |
@@ -351,6 +352,7 @@ Store values in nodes connected by `next` references rather than contiguous inde
 - [x] 21. Merge Two Sorted Lists
 - [x] 19. Remove Nth Node From End of List
 - [x] 143. Reorder List
+- [x] 138. Copy List with Random Pointer
 
 ---
 
