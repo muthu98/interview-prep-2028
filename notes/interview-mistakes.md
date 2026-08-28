@@ -432,3 +432,55 @@ Initially treated `Map.has()` like value access, used the return value of `push(
 ### Correction
 
 Use `has()` only for membership, `get()` for the listener array, and remove only the matching registration when a listener is supplied.
+
+---
+
+# Day 17
+
+## DSA
+
+### Mistake 1
+
+Tried `{ ...node }` as a deep copy. The new outer object still held the original node references in `next` and `random`.
+
+### Correction
+
+Copy the graph of relationships, not only each node's fields. Create one copied node per original and translate both pointers to copied targets.
+
+### Mistake 2
+
+Created a separate shallow-copied head outside the Map, then wired pointers by modifying original nodes in the second pass.
+
+### Correction
+
+The Map must be the single source of copied nodes. For every original node, set `copy.next` and `copy.random` using Map lookups, and return `copies.get(head)`.
+
+### Optimization Correction
+
+The first O(1)-space attempt used a flag-based traversal to find random targets. Interleaving already provides the direct relationship: an original node's copy is `original.next`, so its random target's copy is `original.random.next`.
+
+## JavaScript
+
+### Mistake 1
+
+Used `runningTask <= limit`, allowing one task more than the concurrency limit, and reused a changing index inside asynchronous handlers.
+
+### Correction
+
+Schedule only while `runningTask < limit` and capture `taskIndex` before starting each task.
+
+### Mistake 2
+
+Mixed all-settled-style result objects with fail-fast requirements, and a final `catch` converted rejection back into fulfillment.
+
+### Correction
+
+On the first error, set `failed = true`, reject with that error, and stop scheduling queued tasks. Do not recover the outer rejection into a fulfilled result.
+
+### Mistake 3
+
+Used invalid `finally` syntax, resolved as soon as the queue became empty even when tasks were still running, and did not reliably restart scheduling after completion.
+
+### Correction
+
+Attach `.finally()`, decrement the active count there, resolve only when the queue is empty and `runningTask === 0`, and otherwise call the scheduler again. Wrap task invocation in `Promise.resolve().then(() => task())` to capture synchronous throws.
