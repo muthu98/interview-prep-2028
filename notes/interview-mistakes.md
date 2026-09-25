@@ -484,3 +484,63 @@ Used invalid `finally` syntax, resolved as soon as the queue became empty even w
 ### Correction
 
 Attach `.finally()`, decrement the active count there, resolve only when the queue is empty and `runningTask === 0`, and otherwise call the scheduler again. Wrap task invocation in `Promise.resolve().then(() => task())` to capture synchronous throws.
+
+---
+
+# Day 18
+
+## DSA
+
+### Design Tradeoff
+
+The first plan tried to continue through whichever input list remained and return `l1`. Reusing `l1` can work, but it makes the implementation asymmetric and requires creating nodes when `l1` ends first.
+
+### Correction
+
+Explicitly extend `l1` whenever `l2` has another node or a carry remains. Use `sum % 10` for the current digit and `Math.floor(sum / 10)` for the next carry. In an interview, state that this mutates `l1`; use a dummy result list if inputs must remain unchanged.
+
+## JavaScript
+
+### Mistake
+
+Implemented a race over task functions while describing native `Promise.race`, which accepts values and Promises.
+
+### Correction
+
+For native-compatible behavior, use `Promise.resolve(value).then(resolve, reject)`. For lazy task functions, use `Promise.resolve().then(() => task()).then(resolve, reject)` and name the contract clearly.
+
+---
+
+# Day 19
+
+## DSA
+
+### Incomplete Baseline
+
+A Map/Set correctly finds the repeated value in O(n) time, but violates the O(1)-extra-space requirement.
+
+### Invalid Generalization
+
+The sum-difference method assumes the duplicate occurs exactly twice and every other number appears exactly once. The actual constraint allows one distinct duplicate to appear more than twice, so missing values can cancel the sum difference.
+
+### Correction
+
+Because every value is a valid next index, treat the array as a deterministic linked structure. Use Floyd's slow/fast pointers to find a meeting inside the cycle, then reset one pointer to `0`; their next meeting is the duplicate value.
+
+## JavaScript
+
+### Mistake 1
+
+Used `task.length` when checking whether every task rejected. A function's `.length` is its declared parameter count, not the number of tasks.
+
+### Correction
+
+Increment a rejection counter only in the rejection path and compare it with `tasks.length`.
+
+### Mistake 2
+
+Rejected with a plain errors array and did not settle an empty task list.
+
+### Correction
+
+Reject empty input immediately with an empty `AggregateError`. When the rejection count reaches the task count, reject with `new AggregateError(errors, message)` while preserving reasons by input index.

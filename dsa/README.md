@@ -18,8 +18,8 @@
 ## Overall Statistics
 
 - ✅ Patterns Completed: **9 / 21**
-- ✅ Problems Solved: **17**
-- 📅 Current Day: **Day 17**
+- ✅ Problems Solved: **19**
+- 📅 Current Day: **Day 19**
 
 ---
 
@@ -27,14 +27,14 @@
 | --------------------- | :--------: | :----: | :-------: |
 | Arrays                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Hashing               | ⭐⭐⭐⭐⭐ | ✅ | 1 |
-| Two Pointers          | ⭐⭐⭐⭐⭐ | ✅ | 1 |
+| Two Pointers          | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Sliding Window        | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Prefix Sum / Suffix   | ⭐⭐⭐⭐☆ | ✅ | 1 |
 | Binary Search         | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Intervals             | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
-| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 6 |
+| Linked List            | ⭐⭐⭐⭐☆ | ✅ | 7 |
 | Trees                  | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
@@ -67,6 +67,8 @@
 | Nth node from the end | Linked List / Two Pointers |
 | Reorder a linked list from both ends | Linked List / Reverse and Merge |
 | Copy nodes with arbitrary references | Linked List / Hash Map or Interleaving |
+| Add numbers stored in reverse order | Linked List / Carry Simulation |
+| Values are valid next indexes and repeat | Fast and Slow Pointers / Floyd's Cycle Detection |
 | Tree Traversal | Trees |
 | Top K | Heap |
 | Shortest Path | Graphs |
@@ -154,6 +156,8 @@ Maintain two pointers moving together or toward each other.
 - Pair Sum
 - Remove duplicates
 - Palindrome
+- Deterministic next-index traversal
+- Cycle detection with O(1) extra space
 
 ### Complexity
 
@@ -164,6 +168,7 @@ Space: **O(1)**
 ### Problems
 
 - [x] 121. Best Time to Buy and Sell Stock
+- [x] 287. Find the Duplicate Number
 
 ---
 
@@ -353,6 +358,7 @@ Store values in nodes connected by `next` references rather than contiguous inde
 - [x] 19. Remove Nth Node From End of List
 - [x] 143. Reorder List
 - [x] 138. Copy List with Random Pointer
+- [x] 2. Add Two Numbers
 
 ---
 

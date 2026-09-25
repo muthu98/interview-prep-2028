@@ -48,6 +48,7 @@
 ### Two Pointers
 
 - [x] 121. Best Time to Buy and Sell Stock
+- [x] 287. Find the Duplicate Number
 
 ### Binary Search
 
@@ -71,6 +72,7 @@
 - [x] 19. Remove Nth Node From End of List
 - [x] 143. Reorder List
 - [x] 138. Copy List with Random Pointer
+- [x] 2. Add Two Numbers
 
 ---
 
@@ -148,6 +150,12 @@
 - [x] Interleave copied nodes to remove Map space
 - [x] Restore the original list while separating the copied list
 - [ ] Re-solve 138. Copy List with Random Pointer without notes
+- [x] Add corresponding linked-list digits with carry
+- [x] Extend a reused result list for unequal lengths and final carry
+- [ ] Re-solve 2. Add Two Numbers without notes
+- [x] Interpret array values as next-index pointers
+- [x] Find a duplicate using Floyd's cycle entrance
+- [ ] Re-solve 287. Find the Duplicate Number without notes
 
 ---
 
@@ -218,6 +226,12 @@
 - [x] Custom `Promise.all`
 - [x] Custom EventEmitter
 - [x] Promise Concurrency Limiter
+- [x] Custom `Promise.race`
+- [x] Custom `Promise.any`
+- [ ] Implement custom `Promise.race` without notes
+- [ ] Implement custom `Promise.any` without notes
+- [ ] Explain values/Promises versus lazy task functions
+- [ ] Explain `AggregateError` and ordered rejection reasons
 - [ ] Implement `promisePool` without notes
 - [ ] Explain fail-fast scheduling versus cancellation
 - [ ] Implement EventEmitter without notes
@@ -248,6 +262,9 @@
 - [ ] Explain `Promise.all` vs `Promise.allSettled`
 - [ ] Implement a concurrency limiter with ordered results and fail-fast rejection
 - [ ] Explain why `original.random.next` is the copied random target
+- [ ] Explain why an array of valid next indexes forms an implicit linked structure
+- [ ] Explain when the sum-difference duplicate shortcut is invalid
+- [ ] Compare `Promise.race` and `Promise.any`
 - [ ] Re-solve Reorder List using split, reverse, and merge
 - [ ] Implement EventEmitter without notes
 - [ ] Optimize Linked List Cycle to O(1) extra space
