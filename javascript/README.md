@@ -14,8 +14,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## Overall Statistics
 
-- ✅ Topics Completed: **21**
-- 📅 Current Day: **Day 17**
+- ✅ Topics Completed: **23**
+- 📅 Current Day: **Day 19**
 
 ---
 
@@ -44,6 +44,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 | Custom `Promise.all` | ✅ |
 | Custom EventEmitter | ✅ |
 | Promise Concurrency Limiter | ✅ |
+| Custom `Promise.race` | ✅ |
+| Custom `Promise.any` | ✅ |
 
 ---
 
@@ -51,6 +53,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 | Day | Topic |
 |---|---|
+| Day 19 | Custom `Promise.any` |
+| Day 18 | Custom `Promise.race` |
 | Day 17 | Promise Concurrency Limiter |
 | Day 16 | Custom EventEmitter |
 | Day 15 | Custom `Promise.all` |
@@ -95,6 +99,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 - ✅ Custom `Promise.all`
 - ✅ Custom EventEmitter
 - ✅ Promise Concurrency Limiter
+- ✅ Custom `Promise.race`
+- ✅ Custom `Promise.any`
 - ⬜ Objects
 - ⬜ Functions Deep Dive
 - ⬜ Modules (ESM/CommonJS)

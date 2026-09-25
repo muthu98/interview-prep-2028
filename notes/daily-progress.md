@@ -482,3 +482,71 @@ No JavaScript topic was completed for Day 12.
 - Moved completion checks to cleanup: decrement the running count, then resolve only when the queue is empty and no task remains active; otherwise restart the scheduler.
 - Handled empty input with `resolve([])` and completed the required implementation.
 - A non-positive-limit guard and avoiding `queue.shift()` overhead remain optional interview follow-ups.
+
+---
+
+# Day 18
+
+## DSA
+
+### Problem
+
+- 2. Add Two Numbers
+- Pattern: Linked List / Carry Simulation
+
+### Learning Progression
+
+- Immediately chose to traverse both lists together, add corresponding values plus a carried value, use `% 10` for the result digit, and pass the remaining tens value forward.
+- Planned for unequal list lengths and a final carry by extending the available list.
+- Reused and mutated `l1` as the result instead of creating a separate dummy-headed list.
+- Correctly added nodes when `l2` continued beyond `l1` or a final carry remained.
+- Simplified the carry calculation to `Math.floor(sum / 10)` and the extension condition to `!l1.next && (l2?.next || carry)`.
+- Completed the in-place solution in O(max(n, m)) time with O(1) auxiliary space, excluding required new result nodes.
+
+## JavaScript
+
+### Topic
+
+- Custom `Promise.race`
+
+### Learning Progression
+
+- Correctly created one outer Promise and started every supplied task immediately.
+- Used `Promise.resolve().then(() => task())` so synchronous task throws became rejections.
+- Recognized that multiple tasks may attempt settlement, while the outer Promise accepts only the first attempt.
+- Learned the API distinction: the initial solution raced task functions, while native `Promise.race` accepts values and Promises and normalizes each with `Promise.resolve(value)`.
+- Confirmed that no result array or completion counter is needed and that empty input remains pending.
+
+---
+
+# Day 19
+
+## DSA
+
+### Problem
+
+- 287. Find the Duplicate Number
+- Pattern: Fast and Slow Pointers / Floyd's Cycle Detection
+
+### Learning Progression
+
+- First produced the correct O(n)-time Map/Set membership solution, then recognized that it used O(n) extra space.
+- Proposed subtracting the expected sum from the actual sum; clarified that this works only if the duplicate occurs exactly twice and every other value occurs once.
+- Learned that the problem guarantees one distinct duplicated value, but that value may appear more than twice, so the sum shortcut is not generally valid.
+- Reinterpreted each value as the next index, turning the array into an implicit linked structure with a cycle.
+- Used Floyd's algorithm to meet inside the cycle, reset one pointer to index `0`, and find the cycle entrance—the duplicate.
+- Completed the solution in O(n) time and O(1) extra space without modifying the array.
+
+## JavaScript
+
+### Topic
+
+- Custom `Promise.any`
+
+### Learning Progression
+
+- Correctly resolved the outer Promise on the first successful task and stored rejection reasons by input index.
+- Moved the counter into the rejection path so it represented rejected tasks rather than all settlements.
+- Corrected `task.length`—a function's declared parameter count—to `tasks.length`, the number of tasks.
+- Added immediate rejection for empty input and used `AggregateError` when every task rejected.
+- Preserved the task-function contract with `Promise.resolve().then(() => task())`; native `Promise.any` instead accepts values and Promises directly.
