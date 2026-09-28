@@ -544,3 +544,39 @@ Rejected with a plain errors array and did not settle an empty task list.
 ### Correction
 
 Reject empty input immediately with an empty `AggregateError`. When the rejection count reaches the task count, reject with `new AggregateError(errors, message)` while preserving reasons by input index.
+
+---
+
+# Day 20
+
+## DSA
+
+### Terminology and Traversal Correction
+
+Initially called DFS "deep binary search" and equated DFS with recursion and BFS with iteration. Depth-First Search can use recursion or an explicit stack; Breadth-First Search uses a queue to visit levels. BFS is not iterative DFS.
+
+### Implementation Follow-up
+
+The completed BFS correctly counted levels with a manual next-level node counter. A queue-length snapshot can simplify that bookkeeping. Repeated JavaScript `queue.shift()` can add substantial removal overhead; an efficient queue was discussed but not implemented. Iterative DFS also remains unimplemented.
+
+## TypeScript
+
+### Explanation Refinement
+
+"Generics dynamically adapt" misses the compile-time relationship. Generics preserve input/output type information, while `any` bypasses checking on the value.
+
+## React
+
+### Correction
+
+A click or HOC alone is not a re-render trigger. Explain the underlying state, parent/props, consumed context, or subscribed store update.
+
+### Wording Refinement
+
+The distinction between a result and a function reference was already understood: `useMemo` caches a calculation's result; `useCallback` caches a function reference. Do not record this as a newly discovered conceptual mistake.
+
+## Behavioral
+
+### Delivery Refinement
+
+The initial introduction repeated upskilling, used fillers, and mixed tenses. Tightened it and added the Walmart release-time improvements: desktop around 8 → 2 hours and mobile about 72 → 24 hours. NatWest impact details remain pending.

@@ -12,7 +12,7 @@
 - [x] Stack
 - [x] Queue
 - [ ] Heap
-- [ ] Trees
+- [ ] Trees (in progress: Day 20 maximum depth completed)
 - [ ] Graphs
 - [ ] Dynamic Programming
 - [ ] Intervals
@@ -40,7 +40,14 @@
 
 - [x] 53. Maximum Subarray
 
-### Sliding Window
+##### Trees
+
+- [x] 104. Maximum Depth of Binary Tree — recursive DFS.
+- [x] 104. Maximum Depth of Binary Tree — BFS level-order.
+
+---
+
+# Sliding Window
 
 - [x] 3. Longest Substring Without Repeating Characters
 - [x] 567. Permutation in String
@@ -299,3 +306,50 @@
 - [ ] Greedy
 - [ ] Trie
 - [ ] Backtracking
+
+---
+
+# Day 20 — Covered Topics and Follow-ups
+
+## Trees
+
+- [x] Recursive DFS: null base case and subtree-depth return.
+- [x] BFS: count completed levels with a queue.
+- [x] Distinguish DFS traversal from recursion and BFS from iterative DFS.
+- [ ] Implement iterative DFS with node/depth stack entries — discussed only.
+- [ ] Re-solve LeetCode 104 without notes.
+- [ ] Replace repeated `queue.shift()` with an efficient queue and explain its storage costs.
+
+## TypeScript
+
+- [x] Generics vs `any` basics and input/output type relationships.
+- [ ] Explain generic inference and the risks of `any` without notes.
+
+## React
+
+- [x] Re-render triggers: state, parent/props, consumed context, and subscribed store updates.
+- [x] `React.memo` vs `useMemo` vs `useCallback`.
+- [ ] Explain why memoized components can still render.
+
+## System Design
+
+- [x] Load balancer purpose and health checks.
+- [x] L4 vs L7 routing.
+- [x] Round-robin vs least-connections.
+- [ ] Explain the routing tradeoffs without notes.
+
+## AI Engineering
+
+- [x] Python dict/list/append and basic function syntax.
+- [ ] Python type hints — not completed.
+- [ ] FastAPI-oriented Python — future study.
+
+## Behavioral
+
+- [x] Refine "Tell me about yourself" with measurable Walmart CI/CD impact.
+- [ ] Practice the 60–90 second introduction.
+- [ ] Add concrete NatWest impact points.
+
+## Backend — Planned from Day 21
+
+- [ ] Begin Java backend / Spring Boot preparation.

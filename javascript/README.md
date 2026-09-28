@@ -14,8 +14,9 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## Overall Statistics
 
-- ✅ Topics Completed: **23**
-- 📅 Current Day: **Day 19**
+- ✅ JavaScript Topics Completed: **23**
+- ✅ TypeScript Basics Topics Covered: **1** — generics vs `any`
+- 📅 Current Day: **Day 20**
 
 ---
 
@@ -49,10 +50,18 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ---
 
+## TypeScript
+
+- Day 20: [Generics vs `any` basics](typescript/generics-vs-any.md).
+- This is introductory coverage, not completion of TypeScript as a whole.
+
+---
+
 ## 🆕 Recently Completed
 
 | Day | Topic |
 |---|---|
+| Day 20 | TypeScript generics vs `any` basics |
 | Day 19 | Custom `Promise.any` |
 | Day 18 | Custom `Promise.race` |
 | Day 17 | Promise Concurrency Limiter |
@@ -138,5 +147,8 @@ javascript/
 ├── promises.md
 ├── this.md
 ├── type-coercion.md
-└── var-let-const.md
-└── var-vs-let-closures.md
+├── var-let-const.md
+├── var-vs-let-closures.md
+└── typescript/
+    └── generics-vs-any.md
+```

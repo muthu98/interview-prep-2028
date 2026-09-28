@@ -550,3 +550,67 @@ No JavaScript topic was completed for Day 12.
 - Corrected `task.length`—a function's declared parameter count—to `tasks.length`, the number of tasks.
 - Added immediate rejection for empty input and used `AggregateError` when every task rejected.
 - Preserved the task-function contract with `Promise.resolve().then(() => task())`; native `Promise.any` instead accepts values and Promises directly.
+
+---
+
+# Day 20
+
+## DSA
+
+### Problem
+
+- [104. Maximum Depth of Binary Tree](../dsa/trees/104-maximum-depth-of-binary-tree.md)
+- Pattern: Trees / Depth-First Search and Breadth-First Search
+
+### Learning Progression
+
+- Initially described passing the current depth to children and updating an external maximum. This was a valid DFS approach; corrected the term "deep binary search" to Depth-First Search.
+- Completed recursive DFS by returning 0 for a missing node and `1 + Math.max(leftDepth, rightDepth)` otherwise. Time: O(n); recursion space: O(h), where h is tree height.
+- Clarified that DFS can be recursive or iterative; BFS is a different traversal, usually implemented with a queue.
+- Also completed BFS with a queue, manually tracking the number of nodes in each level and incrementing depth once per completed level.
+- Discussed simplifying the level counter with a snapshot of `queue.length`. Repeated JavaScript `queue.shift()` can add O(n²) total overhead in the worst case; an efficient queue gives O(n) traversal time and O(w) space, where w is maximum width. Queue optimization was discussed, not implemented.
+- Iterative DFS using a stack of node/depth pairs was discussed but not implemented.
+
+## TypeScript
+
+- Covered generics vs `any` at the basics level.
+- Refined "generics dynamically adapt" to preserving the relationship between input and output types at compile time.
+- Used `identity<T>(value: T): T` to explain type inference; `any` loses that relationship and bypasses checking on the value.
+- Notes: [TypeScript basics](../javascript/typescript/generics-vs-any.md).
+
+## React / Frontend
+
+- Covered state updates, parent renders, new props, consumed context changes, and subscribed external state such as Redux.
+- Corrected the idea that a click or HOC itself causes a render: an event or wrapper must cause an underlying update.
+- Distinguished `React.memo` (can skip a component render when props are unchanged), `useMemo` (cached calculation result), and `useCallback` (cached function reference).
+- The result-versus-function distinction was already understood; the wording around `useMemo` was refined.
+- Notes: [React](../react/re-render-triggers-and-memoization.md).
+
+## System Design
+
+- Covered load balancers distributing client traffic across backend servers.
+- Explained health checks, removing unhealthy servers from rotation, and returning recovered servers after they pass checks.
+- Compared L4 transport-level routing using IP/port information with L7 application-level routing using HTTP details.
+- Explained round-robin's circular distribution and its limitation with busy/slow servers; compared least-connections routing using active connection counts.
+- Notes: [Load balancer fundamentals](../system-design/load-balancer.md).
+
+## AI Engineering
+
+- Practiced Python basics through JavaScript comparisons: object → `dict`, array → `list`, `push()` → `append()`, and `def` function syntax.
+- Wrote dictionary/list examples, appended an item, and wrote an `add(a, b)` function.
+- Reviewed assignment without `let`/`const`/`var`, quoted string keys, indentation, and optional rather than customary semicolons.
+- Python type hints were introduced as the next exercise but were not completed. FastAPI-oriented Python remains future work.
+- Notes: [Python basics](../ai/python-basics.md).
+
+## Behavioral
+
+- Practiced "Tell me about yourself" as a 60–90 second introduction: experience, current NatWest role, core stack, prior impact, and next-role goals.
+- Reduced fillers, repeated upskilling statements, and tense changes.
+- Added measurable Walmart CI/CD and automation impact: desktop release time reduced from around 8 hours to 2 hours; mobile release time from about 72 hours to 24 hours.
+- Stronger NatWest impact points remain to be added later; no new achievements were invented.
+- Practice version: [Behavioral](../behavioural/tell-me-about-yourself.md).
+
+## Next Study Day
+
+- Day 21: begin Java backend / Spring Boot preparation.
+- [Backend](../backend/java-spring-boot-plan.md) is prepared as a placeholder only; no backend study is marked complete.
