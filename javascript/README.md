@@ -52,7 +52,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 ## TypeScript
 
-- Day 20: [Generics vs `any` basics](typescript/README.md).
+- Day 20: [Generics vs `any` basics](typescript/generics-vs-any.md).
 - This is introductory coverage, not completion of TypeScript as a whole.
 
 ---
@@ -150,5 +150,5 @@ javascript/
 ├── var-let-const.md
 ├── var-vs-let-closures.md
 └── typescript/
-    └── README.md
+    └── generics-vs-any.md
 ```

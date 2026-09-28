@@ -1,4 +1,4 @@
-# Backend Preparation
+# Java Backend / Spring Boot Plan
 
 ## Planned from Day 21
 

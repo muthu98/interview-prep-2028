@@ -364,15 +364,11 @@ Store values in nodes connected by `next` references rather than contiguous inde
 
 # 10. Trees — In Progress
 
-### Day 20
+### Problems
 
-- [x] 104. Maximum Depth of Binary Tree — recursive DFS completed.
-- [x] BFS level-order version completed.
-- [ ] Iterative DFS with a stack — discussed, not implemented.
+- [x] [104. Maximum Depth of Binary Tree](trees/104-maximum-depth-of-binary-tree.md) — recursive DFS and BFS completed; iterative DFS remains pending.
 
-Recursive DFS returns 0 for a missing node and 1 plus the greater subtree depth otherwise: O(n) time and O(h) recursion space. BFS counts complete levels; the submitted JavaScript version uses `queue.shift()`, whose removal overhead can make total time O(n²) in the worst case. An efficient queue supports O(n) time and O(w) space.
-
-Trees are started, not marked as an entirely completed pattern. See [Day 20](../notes/daily-progress.md#day-20) for the actual learning progression.
+Trees are started, not marked as an entirely completed pattern.
 
 ---
 

@@ -559,7 +559,7 @@ No JavaScript topic was completed for Day 12.
 
 ### Problem
 
-- 104. Maximum Depth of Binary Tree
+- [104. Maximum Depth of Binary Tree](../dsa/trees/104-maximum-depth-of-binary-tree.md)
 - Pattern: Trees / Depth-First Search and Breadth-First Search
 
 ### Learning Progression
@@ -576,7 +576,7 @@ No JavaScript topic was completed for Day 12.
 - Covered generics vs `any` at the basics level.
 - Refined "generics dynamically adapt" to preserving the relationship between input and output types at compile time.
 - Used `identity<T>(value: T): T` to explain type inference; `any` loses that relationship and bypasses checking on the value.
-- Notes: [TypeScript basics](../javascript/typescript/README.md).
+- Notes: [TypeScript basics](../javascript/typescript/generics-vs-any.md).
 
 ## React / Frontend
 
@@ -584,7 +584,7 @@ No JavaScript topic was completed for Day 12.
 - Corrected the idea that a click or HOC itself causes a render: an event or wrapper must cause an underlying update.
 - Distinguished `React.memo` (can skip a component render when props are unchanged), `useMemo` (cached calculation result), and `useCallback` (cached function reference).
 - The result-versus-function distinction was already understood; the wording around `useMemo` was refined.
-- Notes: [React](../react/README.md).
+- Notes: [React](../react/re-render-triggers-and-memoization.md).
 
 ## System Design
 
@@ -592,7 +592,7 @@ No JavaScript topic was completed for Day 12.
 - Explained health checks, removing unhealthy servers from rotation, and returning recovered servers after they pass checks.
 - Compared L4 transport-level routing using IP/port information with L7 application-level routing using HTTP details.
 - Explained round-robin's circular distribution and its limitation with busy/slow servers; compared least-connections routing using active connection counts.
-- Notes: [Load balancer fundamentals](../system-design/README.md).
+- Notes: [Load balancer fundamentals](../system-design/load-balancer.md).
 
 ## AI Engineering
 
@@ -600,7 +600,7 @@ No JavaScript topic was completed for Day 12.
 - Wrote dictionary/list examples, appended an item, and wrote an `add(a, b)` function.
 - Reviewed assignment without `let`/`const`/`var`, quoted string keys, indentation, and optional rather than customary semicolons.
 - Python type hints were introduced as the next exercise but were not completed. FastAPI-oriented Python remains future work.
-- Notes: [Python basics](../ai/README.md).
+- Notes: [Python basics](../ai/python-basics.md).
 
 ## Behavioral
 
@@ -608,9 +608,9 @@ No JavaScript topic was completed for Day 12.
 - Reduced fillers, repeated upskilling statements, and tense changes.
 - Added measurable Walmart CI/CD and automation impact: desktop release time reduced from around 8 hours to 2 hours; mobile release time from about 72 hours to 24 hours.
 - Stronger NatWest impact points remain to be added later; no new achievements were invented.
-- Practice version: [Behavioral](../behavioural/README.md).
+- Practice version: [Behavioral](../behavioural/tell-me-about-yourself.md).
 
 ## Next Study Day
 
 - Day 21: begin Java backend / Spring Boot preparation.
-- [Backend](../backend/README.md) is prepared as a placeholder only; no backend study is marked complete.
+- [Backend](../backend/java-spring-boot-plan.md) is prepared as a placeholder only; no backend study is marked complete.

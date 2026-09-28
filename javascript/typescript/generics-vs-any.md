@@ -1,4 +1,4 @@
-# TypeScript Interview Notes
+# TypeScript Generics vs `any`
 
 ## Day 20 — Generics vs `any` Basics
 
