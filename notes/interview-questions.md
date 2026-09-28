@@ -186,3 +186,49 @@ Why does `var` print `undefined`?
 - Why does `var` produce `3 3 3`?
 - Why does `let` produce `0 1 2`?
 - What is the relationship between closure and event loop?
+
+---
+
+# Day 20
+
+## Trees
+
+- How does `1 + Math.max(leftDepth, rightDepth)` compute maximum depth?
+- Why does a null node return 0?
+- How does BFS count levels, and why snapshot the current level size?
+- How do recursive DFS, iterative DFS with a stack, and BFS differ?
+- What are the space costs in terms of tree height and width?
+- What overhead can repeated JavaScript `queue.shift()` introduce?
+- Follow-up, not implemented: solve LeetCode 104 with iterative DFS.
+
+## TypeScript
+
+- Why use a generic instead of `any`?
+- How does `identity<T>(value: T): T` preserve the input/output relationship?
+- How can `any` allow a runtime error that type checking could catch?
+
+## React
+
+- What causes a component to re-render?
+- Does a click or an HOC by itself cause a render?
+- What is the difference between `React.memo`, `useMemo`, and `useCallback`?
+- Revision follow-up: when can a memoized component still render?
+
+## System Design
+
+- Why put a load balancer in front of multiple backend servers?
+- What happens when a backend fails or recovers?
+- How does L4 routing differ from L7 routing?
+- When can round-robin distribute work poorly, and how can least-connections help?
+
+## AI Engineering
+
+- What are Python's equivalents of a JavaScript object, array, and `push()`?
+- How do you write a basic Python function, and what role does indentation play?
+- Pending exercise: add integer type hints to the parameters and return of `add(a, b)`.
+
+## Behavioral
+
+- Tell me about yourself in 60–90 seconds.
+- How did your Walmart CI/CD work improve desktop and mobile release times?
+- Follow-up to prepare later: which concrete NatWest achievements demonstrate your impact?

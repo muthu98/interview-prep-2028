@@ -18,8 +18,8 @@
 ## Overall Statistics
 
 - ✅ Patterns Completed: **9 / 21**
-- ✅ Problems Solved: **19**
-- 📅 Current Day: **Day 19**
+- ✅ Problems Solved: **20**
+- 📅 Current Day: **Day 20**
 
 ---
 
@@ -35,7 +35,7 @@
 | Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
 | Linked List            | ⭐⭐⭐⭐☆ | ✅ | 7 |
-| Trees                  | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
+| Trees                  | ⭐⭐⭐⭐⭐ | In progress | 1 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Union Find             | ⭐⭐⭐☆☆ | ⬜ | 0 |
@@ -362,10 +362,24 @@ Store values in nodes connected by `next` references rather than contiguous inde
 
 ---
 
+# 10. Trees — In Progress
+
+### Day 20
+
+- [x] 104. Maximum Depth of Binary Tree — recursive DFS completed.
+- [x] BFS level-order version completed.
+- [ ] Iterative DFS with a stack — discussed, not implemented.
+
+Recursive DFS returns 0 for a missing node and 1 plus the greater subtree depth otherwise: O(n) time and O(h) recursion space. BFS counts complete levels; the submitted JavaScript version uses `queue.shift()`, whose removal overhead can make total time O(n²) in the worst case. An efficient queue supports O(n) time and O(w) space.
+
+Trees are started, not marked as an entirely completed pattern. See [Day 20](../notes/daily-progress.md#day-20) for the actual learning progression.
+
+---
+
 # Remaining Patterns
 
 - Intervals
-- Trees
+- Trees (in progress)
 - Heap / Priority Queue
 - Graphs
 - Union Find
@@ -428,7 +442,7 @@ Every problem in this repository follows:
 ## Phase 2 — Intermediate
 
 - Linked List
-- Trees
+- Trees (in progress: maximum depth with recursive DFS and BFS)
 - Heap
 - Intervals
 - Greedy
