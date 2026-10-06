@@ -15,8 +15,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 ## Overall Statistics
 
 - ✅ JavaScript Topics Completed: **23**
-- ✅ TypeScript Basics Topics Covered: **1** — generics vs `any`
-- 📅 Current Day: **Day 20**
+- ✅ TypeScript Basics Topics Covered: **7** — generics vs `any`, annotations, `unknown` vs `any`, interface vs type, union vs intersection, optional properties, readonly
+- 📅 Current Day: **Day 21**
 
 ---
 
@@ -53,6 +53,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 ## TypeScript
 
 - Day 20: [Generics vs `any` basics](typescript/generics-vs-any.md).
+- Day 21: [Type system basics](typescript/type-system-basics.md) — six additional topic groups.
 - This is introductory coverage, not completion of TypeScript as a whole.
 
 ---
@@ -61,6 +62,7 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 | Day | Topic |
 |---|---|
+| Day 21 | TypeScript annotations, unknown, interfaces/types, unions/intersections, optional and readonly |
 | Day 20 | TypeScript generics vs `any` basics |
 | Day 19 | Custom `Promise.any` |
 | Day 18 | Custom `Promise.race` |
@@ -150,5 +152,7 @@ javascript/
 ├── var-let-const.md
 ├── var-vs-let-closures.md
 └── typescript/
-    └── generics-vs-any.md
+    ├── generics-vs-any.md
+    └── type-system-basics.md
 ```
+

@@ -1,10 +1,11 @@
 # Java Backend / Spring Boot Plan
 
-## Planned from Day 21
+## Day 21 — Started
 
-Java backend / Spring Boot preparation will begin from Day 21.
+Day 20 was preparation only. On Day 21, completed a [beginner Task API exercise](java-spring-boot-task-api.md) using Java 21/Maven, Spring Web, Spring Data JPA, Validation, and H2; tested the API in Postman.
 
-- [ ] Begin Java backend study.
-- [ ] Begin Spring Boot study.
+- [x] Begin Java backend study.
+- [x] Begin Spring Boot study through hands-on CRUD, DTO validation, and centralized exception handling.
+- [ ] Rebuild and explain the API independently.
+- [ ] Continue Java fundamentals; advanced Java mastery is not claimed.
 
-This folder is a preparation placeholder. No Java or Spring Boot topics are marked completed on Day 20.

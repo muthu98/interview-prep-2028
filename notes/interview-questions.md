@@ -232,3 +232,58 @@ Why does `var` print `undefined`?
 - Tell me about yourself in 60–90 seconds.
 - How did your Walmart CI/CD work improve desktop and mobile release times?
 - Follow-up to prepare later: which concrete NatWest achievements demonstrate your impact?
+
+
+---
+
+# Day 21
+
+## Trees
+
+- How does swapping children at every node invert a tree?
+- Compare recursive DFS, stack DFS, and queue BFS time/space costs.
+- Why does queue implementation matter in JavaScript?
+
+## TypeScript
+
+- When should unknown be used instead of any?
+- How do interfaces and type aliases differ?
+- What do union and intersection require?
+- How do optional properties and readonly objects, arrays, and tuples behave?
+
+## React
+
+- Who owns the value in controlled and uncontrolled inputs?
+- How do value and defaultValue differ?
+- Scope reminder: deeper form-performance study remains pending.
+
+## Beginner Java / Spring Boot
+
+- Explain the request path through controller, service, repository, and entity.
+- What do @Entity, @Id, @GeneratedValue, and @Enumerated mean?
+- Why does JPA need a no-argument constructor?
+- What do Task and Long mean in JpaRepository<Task, Long>?
+- How does constructor dependency injection supply the repository?
+- Why separate TaskRequest validation from Task and exception handling?
+- How does @RestControllerAdvice centralize TaskNotFoundException handling?
+- How would you verify CRUD and invalid input in Postman?
+
+## System Design
+
+- How can a cache become stale, and what trade-off does TTL introduce?
+- Explain a cache-aside hit, miss, and write invalidation.
+- When would local memory be suitable, and when would Redis help?
+
+## AI Engineering
+
+- Write int, list[str], dict[str, int], and str | None annotations.
+- Does a Python type hint enforce runtime validation?
+- How is Pydantic BaseModel related to Spring DTO validation?
+- Why is exception handling a separate responsibility?
+
+## Behavioral
+
+- Tell the Walmart weekly release automation story using STAR.
+- What was automated, and what were the approximate user-reported results?
+- Revision: explain personal ownership, measurement definitions, and measurement period without inventing details.
+

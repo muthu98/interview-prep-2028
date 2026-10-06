@@ -614,3 +614,50 @@ No JavaScript topic was completed for Day 12.
 
 - Day 21: begin Java backend / Spring Boot preparation.
 - [Backend](../backend/java-spring-boot-plan.md) is prepared as a placeholder only; no backend study is marked complete.
+
+---
+
+# Day 21
+
+## DSA
+
+- Completed [226. Invert Binary Tree](../dsa/trees/226-invert-binary-tree.md): recursive DFS, iterative BFS with a queue, and iterative DFS with a stack.
+- Discussed O(n) traversal time; recursive/iterative DFS O(h) auxiliary-space upper bound and efficient BFS O(w) queue space. JavaScript queue implementation can affect these bounds.
+- Progress: 21 solved problems, including 2 tree problems; 9/21 patterns completed, with Trees still in progress. LeetCode 104 iterative DFS remains pending.
+
+## TypeScript
+
+- Covered type annotations, unknown vs any, interface vs type, union vs intersection, optional ?, and readonly object properties, arrays, and tuples.
+- Notes: [Type system basics](../javascript/typescript/type-system-basics.md). Introductory coverage, not overall TypeScript mastery.
+
+## React / Frontend
+
+- Completed [controlled vs uncontrolled components](../react/controlled-vs-uncontrolled.md) only.
+- Deeper form-performance topics were not completed.
+
+## Backend — Java / Spring Boot
+
+- Completed substantial beginner hands-on [Task API practice](../backend/java-spring-boot-task-api.md) using Java 21/Maven, Spring Web, Spring Data JPA, Validation, and H2.
+- Covered package structure; TaskStatus enum; Task entity with @Entity, @Id, @GeneratedValue, @Enumerated, constructors, getters/setters.
+- Used TaskRepository extends JpaRepository<Task, Long>; TaskService with constructor dependency injection and CRUD; TaskController with GET/POST/PUT/DELETE.
+- Added TaskRequest DTO validation, TaskNotFoundException, and GlobalExceptionHandler with @RestControllerAdvice.
+- Tested the API in Postman during the learning session (user-reported). This repository update records learning notes; it does not include or rerun the original application.
+- Java beginner status is preserved; fundamentals and independent fluency remain in progress.
+
+## System Design
+
+- Covered [caching fundamentals](../system-design/caching-fundamentals.md), stale cache/cache inconsistency, TTL trade-offs, cache-aside, Redis vs local in-memory cache, and when each is appropriate.
+
+## AI Engineering
+
+- Covered Python type hints: int, list[str], dict[str, int], and optional values with | None.
+- Covered Pydantic BaseModel basics and the relation to Spring DTO validation. Exception handling is a separate responsibility and is not marked completed.
+- Notes: [Python type hints and Pydantic](../ai/python-type-hints-and-pydantic.md).
+
+## Behavioral
+
+- Drafted a [STAR story for Walmart weekly release automation](../behavioural/star-stories.md).
+- User-reported target: roughly 90–100% automation. Actions: automated PR checks, unit tests, Sonar quality gates, sanity checks, temporary validation environments/deployment flow.
+- User-reported results: approximately 95% web automation, 90% mobile automation, and pipeline failure rate reduced from about 30% to about 5%.
+- These figures are the learner's account, not independently verified impact.
+

@@ -32,5 +32,6 @@ Both languages are dynamically typed, but their syntax is not identical. String 
 - [x] Dictionary and list basics.
 - [x] Append an item to a list.
 - [x] Basic function syntax.
-- [ ] Python type hints — next exercise introduced, not completed.
+- [x] Python type hints — introduced on Day 20; basics completed on [Day 21](python-type-hints-and-pydantic.md).
 - [ ] FastAPI-oriented Python — future study.
+
