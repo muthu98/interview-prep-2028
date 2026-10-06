@@ -341,7 +341,7 @@
 ## AI Engineering
 
 - [x] Python dict/list/append and basic function syntax.
-- [ ] Python type hints — not completed.
+- [x] Python type hints — introduced Day 20; basics completed Day 21.
 - [ ] FastAPI-oriented Python — future study.
 
 ## Behavioral
@@ -350,6 +350,28 @@
 - [ ] Practice the 60–90 second introduction.
 - [ ] Add concrete NatWest impact points.
 
-## Backend — Planned from Day 21
+## Backend — Started Day 21
 
-- [ ] Begin Java backend / Spring Boot preparation.
+- [x] Begin Java backend / Spring Boot preparation through a beginner Task API.
+
+---
+
+# Day 21 — Covered Topics and Revision
+
+- [x] LeetCode 226: recursive DFS, queue BFS, and stack DFS; complexity discussed.
+- [x] TypeScript annotations, unknown vs any, interface vs type, union vs intersection, optional ?, readonly objects/arrays/tuples.
+- [x] React controlled vs uncontrolled components only.
+- [x] Beginner Java 21/Maven Task API: Spring Web, JPA, Validation, H2; entity/enum, repository, service constructor injection, CRUD controller, DTO, exceptions, Postman practice.
+- [x] Cache inconsistency, TTL, cache-aside, Redis vs local memory.
+- [x] Python type hints and Pydantic BaseModel basics; relation to Spring DTO validation.
+- [x] Walmart release automation STAR story with user-reported results.
+- [ ] Re-solve LeetCode 226 using all three traversals and explain height/width space costs.
+- [ ] Narrow unknown input and explain optional versus readonly.
+- [ ] Explain value versus defaultValue and who owns input state.
+- [ ] Deeper React form-performance topics — not completed.
+- [ ] Rebuild the Task API independently and explain each Java/Spring component.
+- [ ] Explain validation versus exception handling.
+- [ ] Choose a TTL and cache location for a concrete use case.
+- [ ] Recreate a typed Python function and Pydantic model without notes.
+- [ ] Practice the STAR story and substantiate the metric definitions and personal ownership.
+
