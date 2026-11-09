@@ -28,3 +28,60 @@ We achieved approximately 95% web automation and 90% mobile automation, and the 
 
 Keep the figures approximate. Be ready to explain personal ownership, how automation coverage and pipeline failures were measured, and the measurement period; those details have not been supplied and should not be invented.
 
+
+
+## Day 22 — Walmart Release Branching Strategy
+
+The following is based on the learner's account.
+
+### Situation
+
+Walmart had a weekly release flow while other teams also needed to validate new features in an environment that behaved similarly to production without disrupting the release process.
+
+### Task
+
+Refine the release branching strategy so regular releases, urgent hotfixes, and feature validation could happen in parallel without blocking one another.
+
+### Action
+
+The flows were separated as:
+
+```text
+release/<date> -> staging -> production
+hotfix/<date>  -> staging -> production
+feature        -> QA -> staging-2
+```
+
+`staging-2` was used as a production-like validation environment for feature testing. Access was controlled through approval or AD-group access.
+
+### Result
+
+The separation reduced blockers between the flows and made weekly releases, hotfixes, and feature validation easier to run independently.
+
+### Revision
+
+Do not invent percentages. Be ready to explain why a second staging-like environment was needed and how changes were promoted safely.
+
+## Day 23 — Node 20 / Adaptable Upgrade Stabilization
+
+The following is based on the learner's account.
+
+### Situation
+
+The team upgraded to Node.js 20, a newer Adaptable version, and related TypeScript changes. The initial upgrade was completed, but the application still had runtime behavior changes and build failures.
+
+### Task
+
+Take ownership of stabilizing the application and resolving compatibility issues introduced by the upgrade.
+
+### Action
+
+Analyzed failures one by one, fixed build issues, updated affected TypeScript and Adaptable-related code, and resolved runtime incompatibilities incrementally.
+
+### Result
+
+The application built successfully and worked as expected on the upgraded stack.
+
+### Revision
+
+Add a concrete example of a runtime incompatibility or build failure if available later. Keep the story focused on ownership, diagnosis, and stabilization.
