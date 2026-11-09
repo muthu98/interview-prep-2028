@@ -4,8 +4,8 @@ Track AI engineering study progress, starting with Python foundations. Detailed 
 
 ## 📊 Current Progress
 
-- ✅ Topic units covered: **2** — Python basics for a JavaScript developer; Python type hints and Pydantic basics.
-- 📅 Latest study day: **Day 21**.
+- ✅ Topic units covered: **4** — Python basics, type hints/Pydantic, Pydantic validation, and FastAPI request validation.
+- 📅 Latest study day: **Day 23**.
 - Coverage is introductory; Python and AI engineering as a whole remain in progress.
 
 ## ✅ Completed Topics
@@ -15,6 +15,8 @@ Track AI engineering study progress, starting with Python foundations. Detailed 
 | Day 20 | [Python basics for a JavaScript developer](python-basics.md) | ✅ Basics covered |
 
 | Day 21 | [Python type hints and Pydantic basics](python-type-hints-and-pydantic.md) | ✅ Basics covered |
+| Day 22 | [Pydantic validation](pydantic-validation.md) | ✅ Introductory coverage |
+| Day 23 | [FastAPI request validation](fastapi-request-validation.md) | ✅ Introductory coverage |
 
 ## 📚 Learning Roadmap
 
@@ -24,7 +26,8 @@ Track AI engineering study progress, starting with Python foundations. Detailed 
 - [x] Python type hints: int, list[str], dict[str, int], and optional with | None.
 - [x] Pydantic BaseModel basics and relation to Spring DTO validation.
 - [ ] Python exception handling — separate future topic.
-- [ ] FastAPI-oriented Python — future study.
+- [x] Introductory FastAPI request-model validation flow.
+- [ ] Deeper FastAPI routing, dependency injection, persistence, and exception handling — future study.
 
 ## 🔁 Revision
 
@@ -36,4 +39,6 @@ Track AI engineering study progress, starting with Python foundations. Detailed 
 - [Python basics](python-basics.md)
 
 - [Python type hints and Pydantic basics](python-type-hints-and-pydantic.md)
+- [Pydantic validation](pydantic-validation.md)
+- [FastAPI request validation](fastapi-request-validation.md)
 
