@@ -287,3 +287,76 @@ Why does `var` print `undefined`?
 - What was automated, and what were the approximate user-reported results?
 - Revision: explain personal ownership, measurement definitions, and measurement period without inventing details.
 
+
+
+---
+
+# Day 22
+
+## Trees
+
+- How do you compare two trees recursively?
+- Why must both value and structure match?
+- What are the space costs of recursive DFS and BFS?
+- Why can repeated `queue.shift()` hurt JavaScript queue performance?
+
+## TypeScript
+
+- What does `keyof T` produce?
+- What does `K extends keyof T` guarantee?
+- When would `T extends object` be useful?
+
+## React
+
+- What is reconciliation?
+- Why is a stable ID usually better than an array index as a list key?
+- Can a component re-render without a real DOM update?
+
+## System Design
+
+- Compare fixed window, sliding window, token bucket, and leaky bucket.
+- How does a sliding window choose start and end times?
+- What should be stored in Redis for an exact sliding-log limiter?
+- Rate limiting vs concurrency limiting?
+- Why use shared Redis state behind a load balancer?
+
+## AI
+
+- What does Pydantic validate before a FastAPI endpoint runs?
+- How do `Field` and `Literal` add constraints?
+- How is a Pydantic request model similar to a Spring DTO?
+
+## Behavioral
+
+- Tell the Walmart branching-strategy process-improvement story.
+- Why were separate release, hotfix, and feature-validation flows useful?
+
+# Day 23 — In Progress
+
+## TypeScript
+
+- Explain Partial, Required, Pick, Omit, and Record with examples.
+
+## React
+
+- Compare `useEffect(fn)`, `useEffect(fn, [])`, and `useEffect(fn, [dep])`.
+- When does an effect cleanup run?
+- Why can StrictMode make effects appear to run more than once in development?
+
+## System Design
+
+- Why use a message queue for video processing?
+- What happens if a worker crashes before ACK?
+- What does at-least-once delivery imply for consumer design?
+- When would a DLQ be used?
+
+## AI
+
+- Where does Pydantic validation occur in a FastAPI request flow?
+- What happens when request validation fails?
+
+## Behavioral
+
+- Tell the Node 20 / Adaptable upgrade troubleshooting story.
+- What specific build/runtime issue did you diagnose? Add a concrete example when available.
+
