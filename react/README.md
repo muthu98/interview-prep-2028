@@ -4,8 +4,8 @@ Track React interview concepts and revision. Detailed explanations live in topic
 
 ## 📊 Current Progress
 
-- ✅ Topic units covered: **2** — re-render triggers and memoization basics; controlled vs uncontrolled components.
-- 📅 Latest study day: **Day 21**.
+- ✅ Topic units covered: **4** — re-render/memoization, controlled inputs, reconciliation/keys, and useEffect basics.
+- 📅 Latest study day: **Day 23**.
 - Coverage is conceptual; advanced follow-ups remain pending.
 
 ## ✅ Completed Topics
@@ -15,6 +15,8 @@ Track React interview concepts and revision. Detailed explanations live in topic
 | Day 20 | [Re-render triggers and memoization](re-render-triggers-and-memoization.md) | ✅ Basics covered |
 
 | Day 21 | [Controlled vs uncontrolled components](controlled-vs-uncontrolled.md) | ✅ Basics covered |
+| Day 22 | [Reconciliation and keys](reconciliation-and-keys.md) | ✅ Basics covered |
+| Day 23 | [useEffect basics](use-effect-basics.md) | ✅ Basics covered |
 
 ## 📚 Learning Roadmap
 
@@ -23,6 +25,8 @@ Track React interview concepts and revision. Detailed explanations live in topic
 - [x] Why a click or HOC alone is not a render trigger.
 - [x] `React.memo` vs `useMemo` vs `useCallback`.
 - [x] Controlled vs uncontrolled components.
+- [x] Reconciliation and stable list keys.
+- [x] `useEffect` dependency-array and cleanup basics.
 - [ ] Deeper form-performance topics — not completed.
 - [ ] Explain when a memoized component still renders — follow-up not completed.
 
@@ -37,4 +41,6 @@ Track React interview concepts and revision. Detailed explanations live in topic
 - [Re-render triggers and memoization](re-render-triggers-and-memoization.md)
 
 - [Controlled vs uncontrolled components](controlled-vs-uncontrolled.md)
+- [Reconciliation and keys](reconciliation-and-keys.md)
+- [useEffect basics](use-effect-basics.md)
 
