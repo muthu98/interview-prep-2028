@@ -661,3 +661,100 @@ No JavaScript topic was completed for Day 12.
 - User-reported results: approximately 95% web automation, 90% mobile automation, and pipeline failure rate reduced from about 30% to about 5%.
 - These figures are the learner's account, not independently verified impact.
 
+
+
+---
+
+# Day 22 ✅
+
+## DSA
+
+- Completed [100. Same Tree](../dsa/trees/100-same-tree.md).
+- Recursive DFS completed first.
+- Iterative BFS completed afterward.
+- Discussed why repeated JavaScript `queue.shift()` can add overhead and how an index-based queue keeps traversal efficient.
+- Complexity: O(n) traversal; DFS O(h) recursion space; efficient BFS O(w) queue space.
+
+## TypeScript
+
+- Covered [generic constraints and `keyof`](../javascript/typescript/generic-constraints-keyof.md).
+- `keyof User` was understood as the union of valid keys.
+- Covered `T extends object` and `K extends keyof T`.
+
+## React / Frontend
+
+- Covered [reconciliation and stable keys](../react/reconciliation-and-keys.md).
+- Explained that reconciliation compares previous and new render trees to decide real-DOM changes.
+- Clarified why stable `item.id` keys are preferred over array indexes for mutable/reordered lists.
+
+## Backend — Java / Spring Boot
+
+- The planned Task API filtering exercise `GET /tasks?status=TODO` was not completed in this study session.
+- By the learner's tracking rule, Day 22 was closed and this backend filtering exercise was carried forward as an extra task rather than recorded as completed.
+
+## System Design
+
+- Covered [rate limiting](../system-design/rate-limiting.md): fixed window, sliding window, token bucket, and leaky bucket.
+- Explained Redis-backed distributed rate limiting and per-user/client keys.
+- Clarified that sliding windows track recent request timestamps, not whether backend requests have finished.
+- Distinguished rate limiting from concurrency limiting.
+
+## AI Engineering
+
+- Covered [Pydantic validation basics](../ai/pydantic-validation.md).
+- Pydantic is new in this learning track; focused on request models, types, `Field`, and `Literal`.
+- Connected Pydantic request validation with Spring DTO validation.
+
+## Behavioral
+
+- Drafted the Walmart release-branching/process-improvement STAR story in [STAR stories](../behavioural/star-stories.md).
+- Separate flows: release/date -> staging -> production; hotfix/date -> staging -> production; feature -> QA -> staging-2.
+- Result described as fewer blockers and easier parallel weekly release, hotfix, and feature validation; no unsupported metrics were added.
+
+---
+
+# Day 23 — In Progress
+
+## TypeScript ✅
+
+- Covered [utility types](../javascript/typescript/utility-types.md): Partial, Required, Pick, Omit, and Record.
+- Learner correctly summarized Partial as optional, Required as mandatory, Pick as selecting keys, Omit as removing keys, and Record as key/value object typing.
+
+## React / Frontend ✅
+
+- Covered [useEffect basics](../react/use-effect-basics.md).
+- No dependency array -> after every render.
+- Empty dependency array -> after first render in normal production behavior.
+- Dependency array -> first render plus dependency changes.
+- Cleanup runs on unmount and before re-running the effect when dependencies change.
+
+## System Design ✅
+
+- Covered [message queue basics](../system-design/message-queue-basics.md).
+- Video-processing example: upload first, then asynchronous thumbnail/transcode/analytics/notification work.
+- Discussed buffering traffic spikes, consumer scaling, acknowledgement, retry, at-least-once delivery, idempotency, and DLQ.
+- Clarified that chunked upload and WebSocket progress are related but separate concerns.
+
+## AI Engineering ✅
+
+- Covered [FastAPI request validation](../ai/fastapi-request-validation.md).
+- Pydantic validates request bodies before endpoint business logic runs.
+- Invalid input returns a validation response instead of calling the endpoint function.
+- Coverage remains introductory.
+
+## Behavioral ✅
+
+- Drafted a [Node 20 / Adaptable upgrade stabilization STAR story](../behavioural/star-stories.md).
+- The learner took over after an initial upgrade left runtime behavior changes and build failures.
+- Action: analyze failures incrementally, fix build issues, update TypeScript/Adaptable code, and resolve runtime incompatibilities.
+- Result: application built and behaved correctly on the upgraded stack.
+
+## DSA ⏳
+
+- Day 23 DSA problem has not been selected/completed yet.
+
+## Backend — Java / Spring Boot ⏳
+
+- Day 23 backend work has not been completed yet.
+- The carried Day 22 extra remains: implement Task API filtering for `GET /tasks?status=TODO`.
+

@@ -4,8 +4,8 @@ Track interview answers and delivery practice. Detailed answers and examples liv
 
 ## 📊 Current Progress
 
-- ✅ Answers drafted and refined: **2**.
-- 📅 Latest study day: **Day 21**.
+- ✅ Answers drafted and refined: **4**.
+- 📅 Latest study day: **Day 23**.
 - Further delivery practice and additional impact examples remain pending.
 
 ## ✅ Completed Work
@@ -15,13 +15,17 @@ Track interview answers and delivery practice. Detailed answers and examples liv
 | Day 20 | [Tell me about yourself](tell-me-about-yourself.md) | ✅ Practiced and refined; Walmart CI/CD impact added |
 
 | Day 21 | [Walmart weekly release automation STAR story](star-stories.md) | ✅ Drafted using user-reported impact |
+| Day 22 | [Walmart release branching strategy](star-stories.md) | ✅ Drafted |
+| Day 23 | [Node 20 / Adaptable upgrade stabilization](star-stories.md) | ✅ Drafted |
 
 ## 📚 Learning Roadmap
 
 - [x] Structure the introduction around experience, current role, prior impact, and next-role goals.
 - [x] Add Walmart release-time improvements: desktop around 8 → 2 hours; mobile about 72 → 24 hours.
 - [ ] Add concrete NatWest impact points.
-- [x] One STAR story: Walmart weekly release automation (user-reported metrics).
+- [x] Walmart weekly release automation STAR story.
+- [x] Walmart release branching/process-improvement STAR story.
+- [x] Node 20 / Adaptable upgrade troubleshooting STAR story.
 - [ ] Conflict examples — existing placeholder, not completed.
 - [ ] Leadership examples — existing placeholder, not completed.
 
@@ -33,7 +37,7 @@ Track interview answers and delivery practice. Detailed answers and examples liv
 ## 📂 Topic Notes
 
 - [Tell me about yourself](tell-me-about-yourself.md)
-- [STAR stories — Walmart release automation](star-stories.md)
+- [STAR stories](star-stories.md)
 - [Conflict — placeholder](conflict.md)
 - [Leadership — placeholder](leadership.md)
 

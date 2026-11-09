@@ -12,7 +12,7 @@
 - [x] Stack
 - [x] Queue
 - [ ] Heap
-- [ ] Trees (in progress: Day 20 maximum depth completed)
+- [ ] Trees (in progress: maximum depth, invert tree, and same tree covered)
 - [ ] Graphs
 - [ ] Dynamic Programming
 - [ ] Intervals
@@ -44,6 +44,8 @@
 
 - [x] 104. Maximum Depth of Binary Tree — recursive DFS.
 - [x] 104. Maximum Depth of Binary Tree — BFS level-order.
+- [x] 226. Invert Binary Tree — recursive DFS, iterative BFS, iterative DFS.
+- [x] 100. Same Tree — recursive DFS and iterative BFS.
 
 ---
 
@@ -375,3 +377,27 @@
 - [ ] Recreate a typed Python function and Pydantic model without notes.
 - [ ] Practice the STAR story and substantiate the metric definitions and personal ownership.
 
+
+
+---
+
+# Day 22 — Covered Topics and Revision
+
+- [x] LeetCode 100 Same Tree with recursive DFS and iterative BFS.
+- [x] TypeScript generic constraints, `keyof`, `T extends object`, `K extends keyof T`.
+- [x] React reconciliation and stable list keys.
+- [x] Rate limiting: fixed/sliding window, token/leaky bucket, Redis state, rate vs concurrency.
+- [x] Pydantic request validation basics.
+- [x] Walmart release branching/process-improvement STAR story.
+- [ ] Spring Task API status filtering `GET /tasks?status=TODO` — carried forward as extra.
+
+# Day 23 — In Progress
+
+- [x] TypeScript utility types: Partial, Required, Pick, Omit, Record.
+- [x] React `useEffect` basics and cleanup.
+- [x] Message queues: producer/consumer, buffering, ACK/retry, at-least-once, DLQ.
+- [x] FastAPI request-body validation with Pydantic.
+- [x] Node 20 / Adaptable upgrade troubleshooting STAR story.
+- [ ] Day 23 DSA problem.
+- [ ] Day 23 Backend work.
+- [ ] Carry-over Spring Task API status filtering.

@@ -18,8 +18,8 @@
 ## Overall Statistics
 
 - ✅ Patterns Completed: **9 / 21**
-- ✅ Problems Solved: **21**
-- 📅 Current Day: **Day 21**
+- ✅ Problems Solved: **22**
+- 📅 Current Day: **Day 23**
 
 ---
 
@@ -35,7 +35,7 @@
 | Stack                 | ⭐⭐⭐⭐⭐ | ✅ | 2 |
 | Queue                 | ⭐⭐⭐☆☆ | ✅ | 1 |
 | Linked List            | ⭐⭐⭐⭐☆ | ✅ | 7 |
-| Trees                  | ⭐⭐⭐⭐⭐ | In progress | 2 |
+| Trees                  | ⭐⭐⭐⭐⭐ | In progress | 3 |
 | Heap / Priority Queue | ⭐⭐⭐⭐☆ | ⬜ | 0 |
 | Graphs                | ⭐⭐⭐⭐⭐ | ⬜ | 0 |
 | Union Find             | ⭐⭐⭐☆☆ | ⬜ | 0 |
@@ -370,6 +370,8 @@ Store values in nodes connected by `next` references rather than contiguous inde
 
 - [x] [226. Invert Binary Tree](trees/226-invert-binary-tree.md) — recursive DFS, iterative BFS, and iterative DFS completed.
 
+- [x] [100. Same Tree](trees/100-same-tree.md) — recursive DFS and iterative BFS completed on Day 22.
+
 Trees are started, not marked as an entirely completed pattern.
 
 ---
@@ -440,7 +442,7 @@ Every problem in this repository follows:
 ## Phase 2 — Intermediate
 
 - Linked List
-- Trees (in progress: maximum depth and invert binary tree)
+- Trees (in progress: maximum depth, invert binary tree, and same tree)
 - Heap
 - Intervals
 - Greedy

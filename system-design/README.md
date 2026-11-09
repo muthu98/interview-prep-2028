@@ -4,8 +4,8 @@ Track system design concepts and interview revision. Detailed explanations live 
 
 ## 📊 Current Progress
 
-- ✅ Topic units covered: **2** — load balancer fundamentals; caching fundamentals.
-- 📅 Latest study day: **Day 21**.
+- ✅ Topic units covered: **4** — load balancing, caching, rate limiting, and message queues.
+- 📅 Latest study day: **Day 23**.
 - Coverage is conceptual; no load balancer implementation is marked complete.
 
 ## ✅ Completed Topics
@@ -15,6 +15,8 @@ Track system design concepts and interview revision. Detailed explanations live 
 | Day 20 | [Load balancer fundamentals](load-balancer.md) | ✅ Fundamentals covered |
 
 | Day 21 | [Caching fundamentals](caching-fundamentals.md) | ✅ Basics covered |
+| Day 22 | [Rate limiting](rate-limiting.md) | ✅ Fundamentals covered |
+| Day 23 | [Message queue basics](message-queue-basics.md) | ✅ Fundamentals covered |
 
 ## 📚 Learning Roadmap
 
@@ -24,6 +26,8 @@ Track system design concepts and interview revision. Detailed explanations live 
 - [x] Round-robin vs least-connections.
 
 - [x] Stale cache, TTL trade-offs, cache-aside, Redis vs local cache.
+- [x] Fixed/sliding window, token bucket, leaky bucket, Redis-backed rate-limit state.
+- [x] Producer/consumer queues, traffic buffering, ACK/retry, at-least-once delivery, DLQ.
 
 ## 🔁 Revision
 
@@ -37,4 +41,6 @@ Track system design concepts and interview revision. Detailed explanations live 
 - [Load balancer fundamentals](load-balancer.md)
 
 - [Caching fundamentals](caching-fundamentals.md)
+- [Rate limiting](rate-limiting.md)
+- [Message queue basics](message-queue-basics.md)
 
