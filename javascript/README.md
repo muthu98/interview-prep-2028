@@ -15,8 +15,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 ## Overall Statistics
 
 - ✅ JavaScript Topics Completed: **23**
-- ✅ TypeScript Basics Topics Covered: **7** — generics vs `any`, annotations, `unknown` vs `any`, interface vs type, union vs intersection, optional properties, readonly
-- 📅 Current Day: **Day 21**
+- ✅ TypeScript topic groups covered through Day 23: generics, annotations, narrowing basics, generic constraints, `keyof`, and utility types
+- 📅 Current Day: **Day 23**
 
 ---
 
@@ -54,6 +54,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 - Day 20: [Generics vs `any` basics](typescript/generics-vs-any.md).
 - Day 21: [Type system basics](typescript/type-system-basics.md) — six additional topic groups.
+- Day 22: [Generic constraints and `keyof`](typescript/generic-constraints-keyof.md).
+- Day 23: [Utility types](typescript/utility-types.md) — Partial, Required, Pick, Omit, and Record.
 - This is introductory coverage, not completion of TypeScript as a whole.
 
 ---
@@ -62,6 +64,8 @@ This folder contains my JavaScript interview preparation notes, code examples, a
 
 | Day | Topic |
 |---|---|
+| Day 23 | TypeScript utility types: Partial, Required, Pick, Omit, Record |
+| Day 22 | Generic constraints and keyof |
 | Day 21 | TypeScript annotations, unknown, interfaces/types, unions/intersections, optional and readonly |
 | Day 20 | TypeScript generics vs `any` basics |
 | Day 19 | Custom `Promise.any` |
@@ -153,6 +157,8 @@ javascript/
 ├── var-vs-let-closures.md
 └── typescript/
     ├── generics-vs-any.md
-    └── type-system-basics.md
+    ├── type-system-basics.md
+    ├── generic-constraints-keyof.md
+    └── utility-types.md
 ```
 
